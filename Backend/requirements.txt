@@ -1,17 +1,39 @@
+# Web framework
+fastapi[standard]
+uvicorn[standard]
+
+# LangChain & LangGraph
+langgraph
 langgraph-supervisor
-langchain-tavily
+langchain
+langchain-community
+langchain-huggingface
+langchain-google-genai
 langchain-openai
+langchain-tavily
+langchain-text-splitters
+
+# LLM utilities
+litellm
+docling
+
+# Data & utilities
+pandas
+requests
+python-dotenv
+pydantic
+colorama
 typing
 typing_extensions
-langchain-google-genai
-docling
-litellm
-colorama
-langchain-community
-langchain-text-splitters
+
+# Requests + weather
+openmeteo-requests
+requests-cache
+retry-requests
+
+# NLP models
+sentence-transformers
+
+# Document parsing
 unstructured
 unstructured[pdf]
-sentence-transformers
-openmeteo_requests
-requests_cache
-retry_requests

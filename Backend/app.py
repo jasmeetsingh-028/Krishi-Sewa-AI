@@ -287,6 +287,7 @@ config = {"configurable": {"thread_id": uuid.uuid4().hex}}
 weather_agent = create_weather_agent()
 crop_agent = create_crop_cultivation_agent()
 policy_agent = create_policy_agent()
+crop_price_agent = create_crop_price_agent()
 
 print(str(date_time_info))
 

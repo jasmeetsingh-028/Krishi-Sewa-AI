@@ -16,6 +16,7 @@ from crop_management_tools.crop_calendar.crop_calendar_tool import get_crop_cale
 #from crop_management_tools.crop_cultivation_guide.retriever_tool import retrieve_crop_cultivation_info
 from crop_management_tools.crop_cultivation_guide.crop_cultivation_tools import *
 from open_meteo_weather_tool.weather_tool import get_weather, query_weather_variables
+from crop_price_tool.commodity_daily_price_tool import get_crop_price_tool
 
 load_dotenv()
 
@@ -170,6 +171,26 @@ def create_policy_agent():
         """
     )
 
+
+def create_crop_price_agent():
+    return create_react_agent(
+        model=llm,
+        tools=[get_crop_price_tool],
+        name="crop_price_agent",
+        prompt="""
+        You are a farmer's helper. Your job is to find and explain crop prices in the simplest way a farmer could understand.
+
+        Guidelines:
+        - Always respond in the same language as the user's message.
+        - Extract the state from the user's query. State is always required.
+        - If the user also mentions crop, district, market, variety, or grade, use that too.
+        - Do not ask for additional information unless absolutely necessary.
+        - Use the `Crop Price Tool` to fetch mandi prices.
+        - Summarize results in farmer-friendly language, showing lowest, highest, and average price if available.
+        - If data is missing or unclear, politely ask the user for clarification.
+        """
+    )
+
 ##----------Create Supervisor Agent----------
 
 ## add memory
@@ -184,18 +205,19 @@ def main():
     weather_agent = create_weather_agent()
     crop_agent = create_crop_cultivation_agent()
     policy_agent = create_policy_agent()
+    crop_price_agent = create_crop_price_agent()
 
 
     ## create super-visor workflow
 
     workflow = create_supervisor(
-        [weather_agent, crop_agent, policy_agent],
+        [weather_agent, crop_agent, policy_agent, crop_price_agent],
         model=llm,
         checkpointer=checkpointer,
         prompt=f"""
     You are a team supervisor managing three expert agents:
 
-    ## User Info:
+    ## User location Info:
     {user_location_info}
 
     ## Current Date & Time Info:
@@ -244,6 +266,18 @@ def main():
             * Identify if the user’s query relates to government schemes, subsidies, or policy regulations.  
             * Use the Policy Agent to fetch relevant information and summarize it in simple, farmer-friendly language.  
         * Always ensure information is credible, recent, and easy to understand for farmers.
+    
+    4. Crop Price Agent  
+        * Specializes in providing mandi prices for crops across India.  
+        * If the location is not provided by the user then use User location (user city or user state) Info to fetch mandi prices.
+        * Uses the Crop Price Tool to fetch prices from government data sources.  
+        * Process:  
+            * Always extract the state from the user’s query (mandatory).  
+            * If crop, district, market, variety, or grade are mentioned, include them in the tool call.  
+            * Summarize results in farmer-friendly language, showing lowest, highest, and average prices if available.  
+            * If required information (like state) is missing, politely ask the user for clarification.  
+        * Always present results in the same language as the user’s message.  
+        * Ensure the explanation is simple and useful for farmers.  
 
 
     Your role as Supervisor:  

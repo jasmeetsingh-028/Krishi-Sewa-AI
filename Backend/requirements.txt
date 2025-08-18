@@ -1,1 +1,17 @@
 langgraph-supervisor
+langchain-tavily
+langchain-openai
+typing
+typing_extensions
+langchain-google-genai
+docling
+litellm
+colorama
+langchain-community
+langchain-text-splitters
+unstructured
+unstructured[pdf]
+sentence-transformers
+openmeteo_requests
+requests_cache
+retry_requests

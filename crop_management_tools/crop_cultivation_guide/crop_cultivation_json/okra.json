@@ -1,0 +1,100 @@
+{
+  "Introduction": "Bhendi is one of the important vegetables and liked by all classes of people. It is tasty and has nutritive value as it contains musilages. It is short duration crop and can be grown throughout the year, if irrigation facilities are available. It is a good cash crop for farmers.",
+  "Climate and soils": "Bhendi can be grown in all the three seasons i.e. Kharif, Rabi and summer under irrigated conditions – Medium black, fertile soils with good drainage are necessary.",
+  "Land preparation": [
+    "One ploughing upto medium depth.",
+    "One or two harrowings for breaking clods and mixing FYM."
+  ],
+  "Varieties": {
+    "standard": [
+      "Pusa Savani",
+      "Selection 2-2",
+      "Parbhani Kranti",
+      "IHR 20-21",
+      "Punjab Padmini"
+    ],
+    "Hybrids": [
+      "Nath Shobha 110",
+      "Nath Shobha 111",
+      "Mahy co-1",
+      "Mahy co-6",
+      "Ankur 35"
+    ]
+  },
+  "Sowing": {
+    "methods": [
+      {
+        "type": "Drill",
+        "distance": "30-45 cm",
+        "seed_rate_per_hectare": "10-12 kg"
+      },
+      {
+        "type": "Dibbling on ridges and furrows",
+        "distance": "45-60 cm apart",
+        "placement": "one side of ridge",
+        "seed_rate_per_hectare": "6-7 kg"
+      }
+    ],
+    "weed_control": "Pre-emergence spray of 2 litre Basalin in 500 lit. water 7 days before sowing to check weed growth.",
+    "season_wise_sowing_time": {
+      "Kharif": "June/July",
+      "Rabi": "October",
+      "Summer": "February/March"
+    }
+  },
+  "Manures & fertilisers": {
+    "organic": "20 tonnes of FYM (50 cartloads) or green manuring with 100 kg seeds of sunnhemp per ha and burying it after 1 or 1.5 months.",
+    "chemical_doses_per_hectare": {
+      "N": "60 kg",
+      "P": "40 kg",
+      "K": "40 kg"
+    },
+    "application_schedule": {
+      "at_sowing": "30 kg N, 40 kg P and 40 kg K",
+      "post_sowing": "remaining 30 kg N to be given 3-4 weeks after sowing."
+    }
+  },
+  "Interculturing": "Weeding as and when necessary. Plot should be kept weed free.",
+  "Irrigation": {
+    "pre_sowing": "One Irrigation before sowing to create optimum moisture condition.",
+    "seasonal_schedule": {
+      "Kharif_and_Rabi": {
+        "interval": "8 – 10 days",
+        "turns": "10-12"
+      },
+      "Summer": {
+        "interval": "5-6 days",
+        "turns": "20-22"
+      }
+    }
+  },
+  "Plant protection": {
+    "pests_and_diseases": [
+      "powdery mildew",
+      "white fly",
+      "hoppers",
+      "shoot borer"
+    ],
+    "control_measures": [
+      "Apply Furadon 10G at the base of the plants immediately after germination of seeds.",
+      "Spraying of wettable sulphur 2-3 times.",
+      "Spraying of monocrotophos + 100 Dithane Z 45 in 100 litre water, if necessary."
+    ]
+  },
+  "Harvesting and Storage": {
+    "harvesting": {
+      "fruit_condition": "Small (5-7 cm) and tender.",
+      "plucking_frequency": "Every day or alternate day.",
+      "yield_per_hectare": {
+        "high_yielding_varieties": "7 – 10 MT",
+        "hybrid_varieties": "12 to 15 MT"
+      }
+    },
+    "storage": "Bhendi being perishable, it is marked immediately after harvest. But if it is to be exported, it needs cold storage facilities at the exporting port to store for some hours or one or two days."
+  },
+  "Marketing": {
+    "commercial_crop": "Marked in towns and cities through producer’s co-operatives or through commission agents –cum- wholesalers in regulated markets.",
+    "small_scale": "Sold in Village and local markets.",
+    "export": "Bhendi is also exported to Gulf countries."
+  }
+}

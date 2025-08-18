@@ -1,0 +1,94 @@
+{
+  "Introduction": "Gavar beans are very much liked by many people as vegetables. They are tasty and nutritious because they belong to leguminous group. Gavar has demand all the year round and hence it is grown throughout the year where irrigation facilities are available. Gavar seeds are used for preparing gum. Therefore, it has industrial importance. Gavar-gum has many industrial uses. Gavar plants at tender stage are also used as green manuring crop.",
+  "Climate and Soils": {
+    "climate": {
+      "type": "hot and humid",
+      "temperature_range_celsius": "20 to 30",
+      "rainfall_mm": "1000 to 1500"
+    },
+    "soils": {
+      "type": "medium black",
+      "depth": "medium",
+      "drainage": "good",
+      "ph": "7.5 to 8",
+      "notes": "Light soils are also suitable but more manures are to be applied."
+    }
+  },
+  "Land preparation": "Two ploughings crosswise and two-three harrowings to break clods and mix FYM thoroughly.",
+  "Varieties": [
+    "Pusa Sadabahar",
+    "Pusa Mosami",
+    "Pusa Navbahar",
+    "Sharad Bahar"
+  ],
+  "Sowing": {
+    "seasons_in_maharashtra": {
+      "Kharif": "June/July",
+      "Summer": "January/February"
+    },
+    "method": "Grown on ridges and furrows.",
+    "spacing": {
+      "ridge_and_furrow_distance": "45-60 cm",
+      "dibbling_distance": "20-30 cm"
+    },
+    "procedure": "Two seeds are dibbled at each hill.",
+    "pre_sowing_treatment": "Seed is soaked in water for 2-3 hours before sowing.",
+    "seed_rate_per_hectare": "12-15 kg"
+  },
+  "Manures and Fertilizers": {
+    "fym": {
+      "crop_type": "irrigated",
+      "quantity_per_hectare": "20-25 MT",
+      "application_time": "at the time of land preparation"
+    },
+    "fertilizers_per_hectare": {
+      "Nitrogen": "25 kg",
+      "Phosphate": "50 kg",
+      "Potash": "50 kg"
+    },
+    "application_schedule": "Half the quantity of Nitrogen and full quantities of Phosphate and Potash are given at the time of sowing and remaining quantity of N is given after 3 weeks."
+  },
+  "Interculture": [
+    "Two-three weedings",
+    "One thinning of seedlings after 10-11 days"
+  ],
+  "Irrigation": {
+    "Kharif": {
+      "interval": "10-12 days",
+      "total_turns": "10-12"
+    },
+    "Summer": {
+      "interval": "5-6 days",
+      "total_turns": "20-22"
+    }
+  },
+  "Plant protection": {
+    "pests": {
+      "types": [
+        "aphids",
+        "hoppers"
+      ],
+      "control": "Spray monocrotophos or methyl, Dimeton 20 ml or Dimethoate 15 ml in 10 litre water."
+    },
+    "diseases": {
+      "types": [
+        "powdery mildew",
+        "wilt"
+      ],
+      "control": "Seed should be treated before sowing with Thirum 4 gm per kg."
+    }
+  },
+  "Harvesting": {
+    "stage": "When the crop is grown for vegetable, tender beans should be harvested.",
+    "frequency": "Regularly every after 2-3 days.",
+    "yield_of_green_beans": "80-120 Q/ha"
+  },
+  "Marketing": {
+    "local_market": "Sold directly to consumers or to village traders who sell to consumers.",
+    "distant_markets": "Sold through commission agents to wholesalers, retailers and finally to consumers.",
+    "logistics": {
+      "packaging": "gunny bags",
+      "transport": "tempos or trucks"
+    }
+  }
+}

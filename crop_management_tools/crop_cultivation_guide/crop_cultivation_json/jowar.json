@@ -1,0 +1,290 @@
+{
+  "Introduction": {
+    "description": "Sorghum (Sorghum vulgare Pers.), popularly known as jowar, is the most important food and fodder crop of dryland agriculture.",
+    "statistics": {
+      "annual_area": "17 to 18 million hectares",
+      "annual_production": "8 to 10 million tonnes"
+    },
+    "origin": "Sorghum is originated in India and Africa. It is also said that its origin is Abyssinia and from there it was brought to USA and European countries.",
+    "growing_regions": "Jowar is mainly concentrated in the peninsular and central India. Maharashtra, Karnataka, Andhra Pradesh, Madhya Pradesh, Gujarat, Rajasthan, Uttar Pradesh (the Bundelkhand region) and Tamil Nadu are the major jowar – growing states. Other states grow sorghum in small areas primarily for fodder.",
+    "uses": {
+      "human_food": "The sorghum grain is used primarily as human food in various forms, such as roti or bhakri (unleavened bread), or is cooked like rice. Sorghums are also malted, popped and several local preparations are made.",
+      "fodder": "Green and dried fodder is the most important roughage for feeding cattle throughout the country.",
+      "other_uses": "The utilization of grain sorghum as a cattle feed, poultry ration and other industrial uses is at present not very significant, although considerable scope exists."
+    }
+  },
+  "Climate and soil": {
+    "climate": {
+      "hardiness": "Sorghum plants are very hardy and can withstand high temperature and drought.",
+      "growing_conditions": "It is grown in arid regions of U.P, Rajasthan and humid regions of Bengal and Bihar.",
+      "temperature_range_celsius": "15 to 40",
+      "annual_rainfall_mm": "400 to 1000"
+    },
+    "soil": {
+      "ideal_type": "The clayey loam soil rich in humus is found to be the most ideal soil.",
+      "ph_tolerance": "5.5 to 8.0",
+      "drainage": "A good sorghum soil must have an efficient drainage facilities though, it may withstand water logging more than maize."
+    }
+  },
+  "Land Preparation": "Deep summer ploughing with mould board plough soon after rabi crop is harvested and leaving the soil exposed to sun until onset of monsoon is a common practice. With the onset of monsoon the land should be ploughed twice by country plough. But the soil for grain crop should be pulverised for a fine tilth by harrowing and cross plankings. If desired, field should be levelled before sowing so that rainwater may be well distributed throughout the field.",
+  "Improved and Hybrid varieties of Sorghum": {
+    "KHARIF SORGHUM": {
+      "Improved varieties": [
+        {
+          "S.N.": 1,
+          "Varieties": "SPV-462",
+          "Parents": "",
+          "Days to maturity": "110 - 115",
+          "Yield (T/ha)": "35 - 40"
+        },
+        {
+          "S.N.": 2,
+          "Varieties": "CSV-13",
+          "Parents": "",
+          "Days to maturity": "110 - 115",
+          "Yield (T/ha)": "35 - 40"
+        },
+        {
+          "S.N.": 3,
+          "Varieties": "CSV-15",
+          "Parents": "SPV-475X SPV -462",
+          "Days to maturity": "110 - 115",
+          "Yield (T/ha)": "40 - 45"
+        }
+      ],
+      "Hybrid varieties": [
+        {
+          "S.N.": 1,
+          "Varieties": "CSH-1",
+          "Parents": "CK 60A x IS 84",
+          "Days to maturity": "90 - 100",
+          "Yield (T/ha)": "30 - 35"
+        },
+        {
+          "S.N.": 2,
+          "Varieties": "CSH-5",
+          "Parents": "2077A x CS 3541",
+          "Days to maturity": "110 - 115",
+          "Yield (T/ha)": "40 - 45"
+        },
+        {
+          "S.N.": 3,
+          "Varieties": "CSH-6",
+          "Parents": "2219 A X CS 3541",
+          "Days to maturity": "90 - 100",
+          "Yield (T/ha)": "50 - 60"
+        },
+        {
+          "S.N.": 4,
+          "Varieties": "CSH-9",
+          "Parents": "296 A x CS 3541",
+          "Days to maturity": "110 - 115",
+          "Yield (T/ha)": "45 - 50"
+        },
+        {
+          "S.N.": 5,
+          "Varieties": "CSH-10",
+          "Parents": "296 A x SB 1085",
+          "Days to maturity": "110 - 115",
+          "Yield (T/ha)": "45 - 50"
+        },
+        {
+          "S.N.": 6,
+          "Varieties": "CSH-11",
+          "Parents": "296 A x MR 750",
+          "Days to maturity": "110 - 115",
+          "Yield (T/ha)": "45 - 50"
+        },
+        {
+          "S.N.": 7,
+          "Varieties": "CSH-14",
+          "Parents": "AK MS 14 A x AKR150",
+          "Days to maturity": "100 - 105",
+          "Yield (T/ha)": "45 - 50"
+        }
+      ]
+    },
+    "RABI JOWER": {
+      "Improved varieties": [
+        {
+          "S.N.": 1,
+          "Varieties": "M-35-1",
+          "Parents": "",
+          "Days to maturity": "120 - 125",
+          "Yield (T/ha)": "15 - 18"
+        },
+        {
+          "S.N.": 2,
+          "Varieties": "CSV-8R",
+          "Parents": "",
+          "Days to maturity": "120 - 125",
+          "Yield (T/ha)": "20 - 22"
+        },
+        {
+          "S.N.": 3,
+          "Varieties": "Swati",
+          "Parents": "M-35-1 x SPV 36",
+          "Days to maturity": "120 - 125",
+          "Yield (T/ha)": "24 - 28"
+        },
+        {
+          "S.N.": 4,
+          "Varieties": "CSV-14R",
+          "Parents": "",
+          "Days to maturity": "115 - 120",
+          "Yield (T/ha)": "20 - 24"
+        },
+        {
+          "S.N.": 5,
+          "Varieties": "Selection 3",
+          "Parents": "",
+          "Days to maturity": "105 - 110",
+          "Yield (T/ha)": "5 - 6"
+        },
+        {
+          "S.N.": 6,
+          "Varieties": "SPV-1359",
+          "Parents": "",
+          "Days to maturity": "125 - 130",
+          "Yield (T/ha)": "25 - 30"
+        }
+      ],
+      "Hybrid varieties": [
+        {
+          "S.N.": 1,
+          "Varieties": "CSH-13R",
+          "Parents": "296 A x RS 29",
+          "Days to maturity": "115 - 120",
+          "Yield (T/ha)": "25 - 30"
+        },
+        {
+          "S.N.": 2,
+          "Varieties": "CSN-15R",
+          "Parents": "104 A x RS 585",
+          "Days to maturity": "115 - 120",
+          "Yield (T/ha)": "32- 35"
+        },
+        {
+          "S.N.": 3,
+          "Varieties": "Phule Yashoda",
+          "Parents": "",
+          "Days to maturity": "120 - 125",
+          "Yield (T/ha)": "18 - 20"
+        },
+        {
+          "S.N.": 4,
+          "Varieties": "SPV-84",
+          "Parents": "",
+          "Days to maturity": "120 - 125",
+          "Yield (T/ha)": "20 - 22"
+        }
+      ]
+    }
+  },
+  "Sowing": {
+    "sowing_time": "In Northern India, it is grown in kharif season, sown in the last week of June to the first week of July. In Southern India, it is grown during Rabi (sown October-November) and summer seasons.",
+    "spacing": "A spacing of 40-45 cm between rows and 15-20 cm between plants.",
+    "seed_rate": "A seed rate of 8-12 kg/ha is used. Seeds are sown about 3-4 cm deep."
+  },
+  "Seed treatment": "Seed treatment can be done with Agrosan GN or Thiram at a rate of 3g/kg of seed, or with sulphur at a rate of 5g/kg of seed. The seed is treated, dried, and then sown.",
+  "Application of mannurs and fertilizers": {
+    "general": "Sorghum is an exhaustive crop that depletes soil fertility. Fertilizer doses vary by variety type and irrigation.",
+    "nitrogen": {
+      "rainfed_high_yielding_and_local_irrigated": "60-80 kg/ha",
+      "irrigated_high_yielding": "120-150 kg/ha",
+      "application_method": "In heavy soils, a single application is better. In light soils, split application is preferred (half basal, half as top-dressing at knee-height stage). Top-dressing is not required in low rainfall or rainfed areas."
+    },
+    "phosphorus_P2O5": {
+      "dose": "40-60 kg/ha",
+      "application_method": "Placement at 4-6 cm depth gives better results; mostly basal placed."
+    },
+    "potash": {
+      "dose": "40 kg/ha",
+      "application_method": "Applied at the time of field preparation."
+    }
+  },
+  "Interculture": {
+    "manual_weeding": "Manual weedings and hoeings are possible during rabi and arid seasons but are difficult during the kharif season due to rain.",
+    "chemical_weeding": {
+      "herbicides": "Application of herbicides like atrazine @ 0.5 kg a.i./ha or Propazine @ 1.0 kg a.i./ha dissolved in 900-1000 liters of water.",
+      "application_time": "These herbicides should be applied before the emergence of sorghum seedlings."
+    }
+  },
+  "Irrigation": {
+    "drought_resistance": "Sorghum is a fairly drought resistant crop and does well in areas receiving 50 cm well distributed rainfall.",
+    "waterlogging_tolerance": "It cannot withstand waterlogging at any stage of crop growth.",
+    "critical_stages": [
+      "knee-height stage",
+      "flowering",
+      "grain filling"
+    ],
+    "kharif_crop_management": "For kharif crops, efficient drainage must be provided. In low lying areas, sowing on 5-7cm high ridges or sowing in flat beds followed by light earthing is recommended."
+  },
+  "Plant protection Measures": {
+    "insect_pest_control": [
+      {
+        "insect": "Shoot- fly",
+        "growth_stage": "Seedling stage",
+        "control_measures": {
+          "chemical": "Carbofuran @ 1kg/100kg of seed, or 5% Disulfoton @ 3g/m row length, or 10% phorate grannule @ 5 g/m row length may be sown along with seeds. Or spraying of Carbaryl (50%w.p) or Endrin (20% EC @ 2 kg or 1 kg/ha respectively twice i.e. 3-5 DAS & 8-12 DAS.",
+          "preventive": "Use of higher seed rate, removal & destruction of damaged seedlings 10-12 days after germination."
+        }
+      },
+      {
+        "insect": "Stem borer",
+        "growth_stage": "Seedling to flowering stage",
+        "control_measures": {
+          "chemical": "Application of grannules of any of 4% Edosulfan @ 8kg/ha, 4% Carbaryl @ 12kg/ha or 2% Lindane @ 15 kg/ha in leaf whorls twice at 10 days interval starting from 20 days after germination.",
+          "preventive": "Uprooting and burning of stubbles."
+        }
+      },
+      {
+        "insect": "Midge",
+        "growth_stage": "Panicle emergence to flowering",
+        "control_measures": {
+          "chemical": "Spraying of Carbaryl (50%W.P) @ 3 kg/ha or Lindane (20EC) @ 1.25 litre or Endosulfan (30 EC) @ 1 litre in 500-600 litres of water/ha before flowering or 3 days after panicle emergence controls the insect.",
+          "preventive": "Buming of panicle residues and chaff left after threshing."
+        }
+      }
+    ],
+    "disease_control": [
+      {
+        "disease": "Grain smut",
+        "causal_organism": "Sphacelotheca sorghi",
+        "control_measures": [
+          "Seed treatment with organo-mercurial compound viz. Ceresan, Agrosan GN, etc."
+        ]
+      },
+      {
+        "disease": "Ergot",
+        "causal_organism": "Sphacelia sorghi",
+        "control_measures": [
+          "Seed treatment with any of the above-mentioned chemicals.",
+          "Spraying of Ziram @0.15% or 1 kg/ha at boot leaf stage and its repetition at 5-7 days interval at least two times.",
+          "Immersion of seed in 2% saline water, washing them with fresh water and drying in shade controls the disease."
+        ]
+      },
+      {
+        "disease": "Downy midew",
+        "causal_organism": "Sclerospora sorghi",
+        "control_measures": [
+          "Avoid waterlogging.",
+          "Removal and burning/burying of diseased plants.",
+          "Application of Dithane Z-78 @ 0.2 % spray solution reduces secondary infaction."
+        ]
+      }
+    ]
+  },
+  "Harvesting and threshing": {
+    "harvesting": {
+      "maturity": "High yielding varieties mature in about 100-120 days.",
+      "methods": "Two methods are employed: either stalk-cut (plants are cut near the ground) or cutting of earheads by sickles. The earheads are removed from the standing crop, piled up, and threshed after a few days."
+    },
+    "threshing": "Threshing of earheads is done either by beating them with sticks or by trampling them under bullock's feet.",
+    "yield": {
+      "grain_quintals_per_ha": "25-35",
+      "hay_or_karvi_quintals_per_ha": "150-170"
+    },
+    "storage": "The harvested grains are sun-dried and storage is conventional."
+  }
+}

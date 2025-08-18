@@ -1,0 +1,205 @@
+{
+  "Introduction": {
+    "name": "Clove",
+    "description": "The dried unopened flower buds of the evergreen tree.",
+    "scientific_name": "Syzygium aromaticum",
+    "synonym": "Eugenia caryophyllus",
+    "type": "Important spice noted for its flavour and medicinal values.",
+    "origin": "Moluccas island (Indonesia)",
+    "introduction_to_india": {
+      "year": "around 1800 A.D.",
+      "by": "East Indian Company",
+      "location": "Spice garden in Courtallam, Tamil Nadu"
+    },
+    "major_producers": [
+      "Indonesia",
+      "Zanzibar",
+      "Madagascar"
+    ],
+    "world_production": {
+      "total": "63,700 tonnes",
+      "indonesia_share": "66%"
+    },
+    "growing_regions_in_india": {
+      "tamil_nadu": [
+        "Nilgiris",
+        "Tirunelveli",
+        "Kanyakumari districts"
+      ],
+      "kerala": [
+        "Calicut",
+        "Kottayam",
+        "Quilon",
+        "Trivandrum districts"
+      ],
+      "karnataka": [
+        "South Kanara district"
+      ]
+    },
+    "uses": [
+      "Food processing industry (whole and ground form)",
+      "Clove oil in perfumeries, pharmaceuticals and flavouring industries",
+      "Clove oleoresin in food processing industry",
+      "KRETEK cigarette industry in Indonesia"
+    ],
+    "tree_description": {
+      "type": "Evergreen tree",
+      "height": "7 to 15 metres",
+      "leaves": "Possess plenty of oil glands on the lower surface"
+    }
+  },
+  "Climate and Soil": {
+    "climate_requirements": {
+      "type": "Strictly a tropical plant",
+      "climate": "Warm humid climate",
+      "temperature": "20 to 300C",
+      "atmosphere": "Humid atmospheric condition",
+      "annual_rainfall": "150 to 250 cm, well distributed"
+    },
+    "altitude": "Thrives from sea level upto an altitude of 1500 metres",
+    "soil_requirements": {
+      "best_suited": "Deep black loam soil with high humus content found in the forest region.",
+      "satisfactory": [
+        "Laterite soils",
+        "Clay loams",
+        "Rich black soils with good drainage"
+      ],
+      "unsuitable": "Sandy soil"
+    }
+  },
+  "Propagation": {
+    "method": "Through seed, which is called mother clove.",
+    "seed_availability": "June to October",
+    "process": "Fruits are allowed to ripe on the tree and drop down naturally. Collected fruits are sown directly or soaked in water overnight and the pericarp removed before sowing. The second method gives quicker and higher germination.",
+    "viability": "Lose viability within one week after harvest under normal conditions; must be sown immediately after collection.",
+    "seed_selection": "Big sized seeds generally give higher percent of germination."
+  },
+  "Nursery practices": {
+    "seedbeds": {
+      "dimensions": "15 to 20 cm height, one metre width, convenient length",
+      "composition": "Loose soils with a layer of sand (about 5-8cm thick) on top."
+    },
+    "sowing": {
+      "spacing": "2 to 3 cm",
+      "depth": "about 2cm"
+    },
+    "protection": "Seedbeds have to be protected from direct sunlight.",
+    "germination": {
+      "commences": "in about 10 to 15 days",
+      "duration": "lasts for about 40 days",
+      "at_higher_elevations": "Delayed considerably, often requires 60 days."
+    },
+    "transplanting_to_bags": {
+      "container": "Polythene bags (30cm x 15 cm)",
+      "potting_mixture": "Good soil, sand and well decomposed cowdung in a ratio of about 3:3:1."
+    },
+    "transplanting_to_field": "Seedlings are ready for transplanting when they are 18 to 24 months old.",
+    "nursery_care": "Nurseries are usually shaded and irrigated daily to ensure uniform stand."
+  },
+  "Land Preparation and Planting": {
+    "ideal_location": "Eastern and northeastern hill slopes, well drained valleys and river banks.",
+    "land_preparation": "The area selected is cleared of scrub growth before monsoon.",
+    "pits": {
+      "size": "60 to 75 cm³",
+      "spacing": "6 to 7 meters",
+      "filling": "Partially filled with topsoil."
+    },
+    "planting_time": {
+      "general": "Beginning of rainy seasons, in June-July.",
+      "low_lying_areas": "Towards the end of the monsoon, in September-October."
+    },
+    "shade_requirement": "Cloves prefer partial shade."
+  },
+  "Manuring": {
+    "application_schedule": "The entire quantity of organic manures and half the quantity of fertilizers may be applied during May-June and the remaining quantity of fertilizers is applied in October-November.",
+    "application_method": "Applied in shallow trenches dug around the plant normally about 1 to 1.5m away from the tree base.",
+    "fertilizer_schedule": [
+      {
+        "age_of_plant": "First year",
+        "cattle_manure_or_compost_kg": 15,
+        "urea_g_per_tree": 0,
+        "super_phosphate_g_per_tree": 0,
+        "muriate_of_potash_g_per_tree": 0
+      },
+      {
+        "age_of_plant": "Second year",
+        "cattle_manure_or_compost_kg": 20,
+        "urea_g_per_tree": 80,
+        "super_phosphate_g_per_tree": 220,
+        "muriate_of_potash_g_per_tree": 160
+      },
+      {
+        "age_of_plant": "Annual increase per year",
+        "cattle_manure_or_compost_kg": 5,
+        "urea_g_per_tree": 40,
+        "super_phosphate_g_per_tree": 110,
+        "muriate_of_potash_g_per_tree": 80
+      },
+      {
+        "age_of_plant": "Tree of 15 and above",
+        "cattle_manure_or_compost_kg": 50,
+        "urea_g_per_tree": 600,
+        "super_phosphate_g_per_tree": 1560,
+        "muriate_of_potash_g_per_tree": 1250
+      }
+    ]
+  },
+  "Irrigation": {
+    "initial_stages": "Irrigation is necessary.",
+    "drought_conditions": "In pronounced drought, pot watering is recommended for the initial two or three years. Subsoil irrigation using 20cm length mud tubes or bamboo tubes is helpful during acute summer.",
+    "grown_up_trees": "Although trees can survive without irrigation, it is advantageous to irrigate for proper growth and yield."
+  },
+  "Harvesting": {
+    "first_yield": "From the seventh or eighth year after planting.",
+    "full_bearing_stage": "After about 15 to 20 years.",
+    "flowering_season": {
+      "plains": "September-October",
+      "high_altitudes": "December to February"
+    },
+    "bud_development": "Flower buds are produced on young flush and take about 4 to 6 months to become ready for harvest.",
+    "harvest_stage": "Buds are less than 2cm long, with colour changing from green to slightly pinkish tinge.",
+    "method": "Matured clove buds are carefully picked by hand. Platform ladders are used for tall trees. Bending branches or knocking down bud clusters is not desirable as it affects future bearing."
+  },
+  "Curing": {
+    "process": "Harvested flower buds are separated from the clusters by hand and spread in the drying yard for drying.",
+    "duration": "Normally 4 to 5 days.",
+    "final_product_appearance": "The stem of the bud is dark brown and the rest of the bud lighter brown in colour.",
+    "weight_reduction": "Well dried cloves will be only about one-third of the weight of the original.",
+    "quantity_per_kg": "About 11,000 to 15,000 dried cloves make one kilogram."
+  },
+  "Yield": {
+    "bearing_habit": "Irregular or alternate bearing tendency.",
+    "yield_per_tree": {
+      "well_maintained_full_grown": "4 to 8 kg of dried buds.",
+      "average_annual_after_15th_year": "2 kg per tree."
+    },
+    "oil_content": {
+      "percentage_in_buds": "16 to 21 %",
+      "composition": {
+        "free_eugenol": "70 to 90 %",
+        "eugenyl_acetate": "5 to 12 %"
+      }
+    }
+  },
+  "Plant Protection": [
+    {
+      "type": "Disease",
+      "name": "Leaf rot",
+      "pathogen": "Cylindrocladium quinquiseptatam",
+      "symptoms": "Dark patches are seen in leaves of mature trees seedlings, which often result in rotting of whole leaves or tips alone causing severe defoliation.",
+      "control_measure": "Spray 0.2 % carbendazim."
+    },
+    {
+      "type": "Pest",
+      "name": "Stem borer",
+      "symptoms": "The pest bores into the main stem, causing death of the plant.",
+      "control_measure": "Swab the surface of the stem with 50% W.P.B.H.C."
+    },
+    {
+      "type": "Pest",
+      "name": "Scale insects",
+      "symptoms": "Infestation is seen on leaves and tender shoots, more often in the nursery.",
+      "control_measure": "Spray 0.05 % monocrotophos."
+    }
+  ]
+}

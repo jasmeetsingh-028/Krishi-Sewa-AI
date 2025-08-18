@@ -1,0 +1,12 @@
+{
+  "coords": {
+    "lat": 28.6139,
+    "lon": 77.209
+  },
+  "location": {
+    "city": "New Delhi",
+    "district": null,
+    "state": null,
+    "country": "India"
+  }
+}

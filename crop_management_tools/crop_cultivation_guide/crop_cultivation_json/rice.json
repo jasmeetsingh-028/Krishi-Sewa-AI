@@ -1,0 +1,75 @@
+{
+  "Introduction": {
+    "Origin": "It is believed that the rice plant may have originated in southern India, then spread to the north of the country and then onwards to China. It then arrived in Korea, the Philippines (about 2000 B. C.) and then Japan and Indonesia (about 1000 B. C.).",
+    "Importance_in_India": "In the Indian subcontinent more than a quarter of the cultivated land is given to rice (2011-12). It is a very essential part of the daily meal in the southern and eastern parts of India. In the northern and central parts of the subcontinent, where wheat is frequently eaten, rice holds its own and is cooked daily as well as on festivals and special occasions."
+  },
+  "Climatic Requirements": {
+    "General": "In India rice is grown under widely varying conditions of altitude and climate. Rice crop needs a hot and humid climate.",
+    "Ideal_Conditions": "It is best suited to regions which have high humidity, prolonged sunshine and an assured supply of water.",
+    "Temperature": {
+      "Average_Range": "21 to 37º C",
+      "Maximum_Range": "40°C to 42°C"
+    }
+  },
+  "Nutritional value of Rice": {
+    "Composition": {
+      "Carbohydrate_starch": "The important component of rice due to which it provides instant energy.",
+      "Nitrogenous_substances": "8%",
+      "Fat_content_lipids": "1%"
+    },
+    "Summary": "It is considered as a complete food for eating.",
+    "Rice_Flour_Uses": [
+      "Rich in starch and is used for making various food materials.",
+      "Used in some instances by brewers to make alcoholic malt."
+    ]
+  },
+  "Medicinal Value": {
+    "General": "The various varieties of rice germplasm is a rich source for many rice based products.",
+    "Health_Benefits": "It is also helps in treating many health related issues such as indigestion, diabetes, arthritis, paralysis, epilepsy.",
+    "Medicinal_Varieties_in_India": [
+      "Kanthi Banko (Chhattisgarh)",
+      "Meher, Saraiphul & Danwar (Orissa)",
+      "Atikaya & Kari Bhatta (Karnataka)"
+    ]
+  },
+  "Crop Production Practices": {
+    "Soil_Types": [
+      "uplands",
+      "low lands"
+    ],
+    "Cultivation_Methods": {
+      "Dry_or_Semi-dry_upland_cultivation": [
+        "Broadcasting the seed",
+        "Sowing the seed behind the plough or drilling"
+      ],
+      "Wet_or_lowland_cultivation": [
+        "Transplanting in puddled fields",
+        "Broadcasting sprouted seeds in puddled fields"
+      ]
+    }
+  },
+  "Selection of Seeds": {
+    "Importance": "The use of quality seeds in cultivation of rice is an important factor to get better crop yield.",
+    "Requirements": [
+      "The seed should belong to the proper variety, which is proposed to be grown.",
+      "The seed should be clean and free from obvious mixtures of other seeds.",
+      "The seed should be mature, well developed and plump in size.",
+      "The seed should be free from obvious signs of age or bad storage.",
+      "The seed should have a high germinating capacity.",
+      "Before sowing the seed should be treated with fungicides which protects the seed against soil-born fungi and also give a boost to the seedlings."
+    ]
+  },
+  "Soil": {
+    "Range": "Paddy is grown in wide range of soil.",
+    "Best_Soil": "Fertile riverine alluvial soil is best for rice cultivation.",
+    "Ideal_Soil": "Clayey loam soil in monsoon land is considered to be the best for rice cultivation as water retention capacity of this soil is very high."
+  },
+  "Fertilizers": {
+    "Essential_Nutrients": [
+      "Nitrogen",
+      "phosphorus",
+      "potassium"
+    ],
+    "Application": "Most of the paddy lands have a moderate quantity of such nutrients, but if they are deficient, organic manure or artificial fertilizers have to be used."
+  }
+}

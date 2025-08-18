@@ -1,0 +1,93 @@
+{
+  "Introduction": {
+    "ScientificName": "Eleusine coracana L.",
+    "CommonNames": [
+      "Finger millet",
+      "African millet",
+      "koracan",
+      "ragi (India)"
+    ],
+    "StapleFoodRegions": [
+      "Eastern and central Africa",
+      "India",
+      "Karnataka"
+    ],
+    "MajorGrowingAreasIndia": [
+      "Karnataka",
+      "Tamil Nadu",
+      "Andhra pradesh",
+      "Orissa",
+      "Bihar",
+      "Gujrat",
+      "Maharashtra",
+      "Hilly regions of Uttar Pradesh",
+      "Hilly regions of Himachal Pradesh"
+    ],
+    "Statistics": {
+      "TotalArea": "2.5 million hectares",
+      "TotalProduction": "2.2 million tonnes"
+    },
+    "PlantCharacteristics": {
+      "Height": "40 cm to 1 m",
+      "SpikeLength": "3 to 13 cm",
+      "GrainColors": [
+        "white",
+        "orange-red",
+        "deep brown",
+        "purple",
+        "almost black"
+      ],
+      "GrainSize": "smaller than pearl millet",
+      "SeedWeight": "2.6 g per 1000 seeds"
+    }
+  },
+  "Cultivation": {
+    "GrowingSeasons": {
+      "HotWeather": "May to September (long duration varieties)",
+      "ColdSeason": "November and December (early types)"
+    },
+    "CroppingSystems": {
+      "Monocropped": "Under irrigation or transplantation",
+      "Intercropped": "Rainfed, with cereals, castor bean, niger, groundnut and pulses"
+    },
+    "CommonSubsidiaryCrops": [
+      "fieldbean (Lablab purpureus)",
+      "pigeon pea (Cajanus cajan)",
+      "cowpea (Vigna sinensis)",
+      "niger (Guizotia abysinnica)"
+    ],
+    "CroppingRole": "Ragi is the subsidiary crop when grown with groundnuts",
+    "ManureAndFertilizers": {
+      "AnimalManure": [
+        "sheep",
+        "cattle"
+      ],
+      "Other": [
+        "Green manures (cowpeas, sunnhemp)",
+        "artificial manures",
+        "oil cakes"
+      ],
+      "Application": "Applied to both irrigated and unirrigated crops"
+    },
+    "Maintenance": "Chopped and weeded at intervals of 14 days or so",
+    "Irrigation": "Number and frequency varies with seasonal conditions"
+  },
+  "Harvesting and Yields": {
+    "MaturityPeriod": "3-5 months after sowing",
+    "HarvestingProcessRainfed": [
+      "Cut close to the ground",
+      "Stalks wither for a day or two in the field",
+      "Bundled and stacked for about 2 months before threshing"
+    ],
+    "ThreshingMethods": [
+      "Dried earheads beaten with sticks",
+      "Sheaves trodden by bullocks",
+      "Crushed by stone rollers"
+    ],
+    "GrainYield": {
+      "RainFedCrop": "10 to 15 q/ha",
+      "IrrigatedCrop": "up to 40 or 50 q/ha"
+    },
+    "FodderYield": "30-90 q/ha (late groups)"
+  }
+}

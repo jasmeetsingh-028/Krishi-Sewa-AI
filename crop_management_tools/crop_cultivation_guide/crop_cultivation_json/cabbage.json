@@ -1,0 +1,190 @@
+{
+  "Introduction": {
+    "summary": "Cabbage is an introduced vegetable crop in India, adapted well and grown all over the country. It is a rich source of vitamins A, B, C and minerals like phosphorus, potassium, calcium, sodium, and iron. Its consumption aids in preventing constipation, increasing digestion, and appetite, and is considered good for diabetics.",
+    "uses": [
+      "Cooked vegetable",
+      "Salad ingredient mixed with tomato, green chilies, beet root, etc.",
+      "Pickle"
+    ],
+    "description": "The cabbage consists of thick leaves overlapping tightly on a growing main bud called a 'head'. It is convenient to grow on both large and small-scale (kitchen garden) cultivation.",
+    "cultivation_areas": "Cabbage is grown throughout the country, being more popular in Southern States where it is available year-round. In northern India, the availability period has been extended with the development of tropical varieties/hybrids."
+  },
+  "Climate and Soil": {
+    "climate": {
+      "suitable": "cool moist climate",
+      "unsuitable": "dry warm weather, where it loses its flavour",
+      "optimum_soil_temperature_for_germination": "12 to 160C"
+    },
+    "soil": {
+      "type": "Can be grown in a wide range of sandy to well-drained heavy soils.",
+      "preference": "sandy loam soils",
+      "for_early_cultivars": "light soils",
+      "for_late_cultivars": "heavy well drained soils",
+      "optimum_ph": "6.0 to 6.5",
+      "salt_tolerance": "moderately tolerant"
+    }
+  },
+  "Varieties": {
+    "classification_note": "A large number of cabbage varieties differing in maturity, head shape and size, colour of leaves and shape of the leaves are grown throughout the world.",
+    "groups": [
+      {
+        "type": "Early maturing varieties",
+        "harvest_time": "60-70 days after transplanting",
+        "examples": [
+          "Golden Acre",
+          "Pride of India",
+          "Copenhagen Market",
+          "Early Drumhead",
+          "Pusa Mukta"
+        ]
+      },
+      {
+        "type": "Midseason varieties",
+        "harvest_time": "80-90 days after planting",
+        "examples": [
+          "All Head early",
+          "Wisconsin",
+          "All Green",
+          "September"
+        ]
+      },
+      {
+        "type": "Late varieties",
+        "harvest_time": "90-120 days after planting",
+        "requirements": "long winter season for good yield and quality",
+        "examples": [
+          "Pusa Drumhead",
+          "Danish Ballhead",
+          "Late Flat Dutch"
+        ]
+      },
+      {
+        "type": "F1Hybrids",
+        "description": "Marketed by various seed companies.",
+        "examples": [
+          {
+            "company": "Mahyco",
+            "varieties": [
+              "Hari Rani",
+              "Shri Ganesh Gol",
+              "Kamdhenu"
+            ]
+          },
+          {
+            "company": "Rallis India Ltd.",
+            "varieties": [
+              "Sujata",
+              "Bajrang",
+              "Swati"
+            ]
+          },
+          {
+            "company": "Indo-American Hybrid Seed Co.",
+            "varieties": [
+              "Ganga",
+              "Yamuna",
+              "Kaveri"
+            ]
+          },
+          {
+            "company": "National Seed Corporation",
+            "varieties": [
+              "Green Express",
+              "Green Boy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Nursery Raising": {
+    "method": "Raising seedlings in the nursery and then transplanting is commonly practiced.",
+    "soil_preparation": "Nursery bed soil should be well prepared and free from weeds and disease organisms. Add sieved well-decomposed Farm Yard manure or Compost at 2-3kg/m2.",
+    "seed_bed_specifications": {
+      "type": "Raised seed beds",
+      "dimensions": "8.5x1.0m",
+      "height": "15-20cm"
+    },
+    "requirements_per_hectare": {
+      "seed_beds_count": "About 15",
+      "seed_rate": "300-500 gm"
+    },
+    "sowing_method": {
+      "depth": "1-2cm",
+      "spacing": "dropped at 4-5cm in rows 10cm apart",
+      "covering": "Gently covered with a mixture of fine manure and soil."
+    },
+    "care": {
+      "moisture": "Regular and good moisture supply is needed for rapid germination and optimum growth.",
+      "disease_prevention": "Drench seedbeds with captaf (2g per litre of water).",
+      "moisture_retention": "Spread a thin layer of dry grass on beds and water with a watering can or sprinkler. Remove grass cover as soon as seedlings emerge.",
+      "readiness_for_transplanting": "4 to 6 weeks, depending on weather."
+    },
+    "sowing_time": {
+      "northern_and_eastern_regions": {
+        "cool_season": "October – November",
+        "hot_weather": "July-Aug; Jan–Feb"
+      },
+      "southern_and_western_regions": "Round the year"
+    }
+  },
+  "Transplanting": {
+    "seedling_selection": "Select 4-6 weeks old healthy seedlings.",
+    "hardening": "Withhold irrigation for 4-5 days prior to uprooting to help in better survival.",
+    "pre_transplant_irrigation": "Irrigate seedlings thoroughly a day before uprooting.",
+    "timing": "Transplant in the afternoon for better establishment.",
+    "planting_method": "Planted on flat land or ridges and furrows. Ridges and furrow method is advisable for early planting in rainy areas.",
+    "land_preparation": "Soil is thoroughly prepared by ploughing and harrowing to a fine tilth.",
+    "planting_distance": {
+      "early_varieties": "45x45 cm or 60x30 cm",
+      "mid_season_varieties": "60x45 cm",
+      "late_season_varieties": "60x45 cm or 60x60 cm"
+    }
+  },
+  "Application of Manures & Fertilizers": {
+    "nutrient_requirement": "Cabbage is a heavy feeder, especially of nitrogen and potash.",
+    "farm_yard_manure": "At land preparation, mix 150-200 Quintals per hectare of well-decomposed farm yard manure or compost.",
+    "basal_fertilizer_application": "At transplanting, apply 40-60kg nitrogen, 40-60kg phosphorous, and 60-80kg potassium per hectare.",
+    "top_dressing": "Apply nitrogen at 40-60kg per hectare about 3 weeks after transplanting.",
+    "foliar_application": "Foliar application of 10kg N/ha is economical and effective."
+  },
+  "Irrigation": {
+    "first_irrigation": "Give soon after transplanting seedlings.",
+    "frequency": "Apply at 10-15 day intervals.",
+    "critical_period": "Maintain optimum soil moisture with frequent irrigation during head formation and development.",
+    "risk_of_uneven_moisture": "May result in splitting or bursting of heads, affecting quality."
+  },
+  "Interculturing": {
+    "operations": "Regular weeding and hoeing.",
+    "purpose": "Essential for proper aeration to the root system, weed control, and to promote healthy, vigorous growth and productivity."
+  },
+  "Plant protection": [
+    "Treat the seed with Captaf or Thirum (2g per kg of seed) and drench the nursery bed with captaf (2kg per litre of water) to control damping off disease.",
+    "Spray the seedbeds with Metasystox (1ml. per litre of water) along with 3g of Blitox or 3g of Dithane M-45 at weekly intervals.",
+    "After transplanting, spray the crop with Malathion 2ml and 4g Dithane-45 in one first month up to the harvesting stage."
+  ],
+  "Harvesting and yield": {
+    "harvesting": {
+      "timing": "Harvest heads when they attain full size, depending on the variety.",
+      "delay_risk": "Heads have a tendency to burst or loosen leaves beyond the marketable stage. Quality deteriorates fast if harvesting is delayed."
+    },
+    "yield": {
+      "factors": "Greatly depends on choice of cultivar, climatic conditions, management practices, etc.",
+      "early_maturing_and_tropical_cultivars": "200 – 250q/ha",
+      "midseason_and_late_varieties": "350-450q/ha"
+    }
+  },
+  "Post harvest handling and marketing": {
+    "preparation": "Remove outer mature unfolded leaves and any long hard portion of the stem.",
+    "grading_and_packing": "Grade heads according to size and quality, then pack in gunny bags or plastic crates.",
+    "transport": "Transported to markets in trucks.",
+    "storage": {
+      "short_term": "Can be stored for 2-3 weeks if arranged in crates and placed in a well-ventilated place.",
+      "cold_storage": {
+        "duration": "several weeks",
+        "temperature": "0°C to 1.7°C",
+        "relative_humidity": "85% to 87%"
+      }
+    }
+  }
+}

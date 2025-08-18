@@ -1,0 +1,102 @@
+{
+  "Introduction": "Bajra popularly known as Pearl millet, cattail millet or bulrush belongs to the family Graminea. The crop is cultivated for grain as well as for fodder in the arid region of Africa and Asia and as a pasture in U.S.A. It is originated in India or Africa. It is grown all over India except Assam and part of northeast India.",
+  "Climate and soil": {
+    "Climate": "The crop has a wide adaptability as it may grow under different day lengths, temperature and moisture stress. Most of the varieties developed in India are photosensitive which helps in growing the crop during monsoon, rabi and arid season. It requires low annual rainfall ranging between 40-50 cm and dry weather. The crop may tolerate drought but cannot withstand high rainfall of 90 cm or above.",
+    "Soil": "Light soils of low inherent fertility good drainage, mild salinity are best type for this crop. Crop does not tolerate soil acidity."
+  },
+  "Land preparation": "The crop needs very fine tilt because the seeds are too small. 2-3 harrowings and a ploughing is followed so that a fine tilth may be obtained to facilitate the sowing and proper distribution of seed at appropriate depth.",
+  "Varieties": [
+    {
+      "name": "NBH-149",
+      "details": "Developed for Andhra Pradesh, Madhya Pradesh, Gujarat, Maharashtra and capable of producing 14% higher yield."
+    },
+    {
+      "name": "VBH-4",
+      "details": "Developed for Andhra Pradesh, Madhya Pradesh, Gujarat, Maharashtra and capable of producing 14% higher yield."
+    },
+    {
+      "name": "ICM4-155",
+      "details": "Gave higher yield than the standard check and adopted for all growing tracts of India."
+    },
+    {
+      "name": "H-306"
+    },
+    {
+      "name": "NH-338"
+    },
+    {
+      "name": "MP-204",
+      "type": "hybrid"
+    },
+    {
+      "name": "MP205",
+      "type": "hybrid"
+    }
+  ],
+  "Sowing": {
+    "Sowing time": "Most appropriate time of sowing is middle or last week of July.",
+    "Seed rate and Spacing": {
+      "Seed rate": {
+        "drilling method": "4-5 kg/ha",
+        "dibbling method": "2.5-3 kg/ha"
+      },
+      "Spacing": {
+        "between rows": "40–45 cm",
+        "within rows": "10–15 cm"
+      }
+    },
+    "Seed treatment": "The organo-mercurial compound Ceresan, Agrosan should be used @ 2.5-3 kg/ha to control seed borne diseases."
+  },
+  "Nutrient and Fertilizer Management": {
+    "Nutrient Requirement": "Generally the crop requires low quantity of nutrients. But All India Co-ordinated Millet Improvement Project has proved that new plant types of bajra especially hybrids respond to very high doses of fertilizers.",
+    "Rainfed Application": "Under rainfed areas application of organic manures such as FYM or compost helps in increasing the crop yield at the rate of 150-200 quintals/ha.",
+    "Recommended Dose (Hybrid)": "80–100 kg N:40-50 kg P:40-50 kg K",
+    "Application Method": "Fertilizers are applied in split doses, half of nitrogen, full phosphorus and potash should be basal placed at the time of sowing. The organic manures must be applied 20 days before the sowing of the seeds for full decomposition. One fourth dose of nitrogen should be applied about 30 days and 60 days after sowing."
+  },
+  "Interculture": "Thinning or gap filling is followed at the time of first interculture. Hand weeding is followed to control the weeds or application of Atrazine @ 0.5 kg/ha would take care of most of the weeds.",
+  "Irrigation": "Bajra is grown rainfed and crop being drought resistant hardly needs any irrigation, however it is observed that the yield may be significantly increased by irrigating the crop at critical growth stages like maximum tillering, flowering and grain filling stage. Therefore light irrigations and efficient drainage is very essential for bajra production.",
+  "Plant protection measures": {
+    "Insect pests": [
+      {
+        "pest": "Stem bores",
+        "control": "Two sprayings with 2 litres of Eldrin 20 c.c."
+      },
+      {
+        "pest": "Grasshoppers",
+        "control": [
+          "Two sprayings with 2 litres of Eldrin 20 c.c.",
+          "Dusting the crop with BHC 5 percent."
+        ]
+      }
+    ],
+    "Diseases": [
+      {
+        "disease": "Downy mildew",
+        "control": "Seed treatment with fungicide like Dithane Z-78 or M-45 @ 2.0kg/ha in 800-1000 lit. of water."
+      },
+      {
+        "disease": "Smut",
+        "control": "Treatment with Ceresan or Thirum @ 1-2 g/kg seeds is effective."
+      },
+      {
+        "disease": "Ergot",
+        "control": "Seed treatment with 20% common salt solution followed by washing with fresh water and then treating with Ceresan or Thirum @ 1-2 g/kg seeds is effective."
+      }
+    ]
+  },
+  "Harvesting and Storage": {
+    "Harvesting and threshing": {
+      "Timing": "The crop is harvested when grains become hard enough and contain moisture.",
+      "Harvesting Methods": [
+        "Cutting earhead from standing crop followed by cutting of remaining plants later.",
+        "Cutting of entire plants by sticks and stalking the plants for five days in sun for obtaining grains."
+      ],
+      "Threshing": "Grains are separated either by beating the earheads with sticks or by trampling the earheads under bullock feet."
+    },
+    "Storage": "The separated grains must be cleaned and dried in sun to bring about 12-14% moisture after which the grains may be bagged and stored in a moisture proof store."
+  },
+  "Yield": {
+    "Irrigated crop": "30-35 quintals/ha",
+    "Unirrigated crop": "12-15 quintals/ha"
+  }
+}

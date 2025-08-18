@@ -1,0 +1,237 @@
+{
+  "Climatic requirements": {
+    "temperature": {
+      "germination": "22 to 25 C",
+      "flowering_and_fruiting": "15 to 18 C"
+    },
+    "conditions": {
+      "fatal": "Frosty weather",
+      "harmful": "High humidity associated with cloudy weather, which results in the spread of fungal diseases like damping off and powdery mildew.",
+      "beneficial": "Light rains followed by bright sunshine."
+    }
+  },
+  "Soil requirements": {
+    "type": "Medium soil type ranging from sandy clayey loam.",
+    "properties": [
+      "Free from soluble salts.",
+      "Well-drained as water logging is extremely harmful."
+    ],
+    "pH": "6.5 to 7.5 (neutral soil reaction)"
+  },
+  "Land preparation": {
+    "general": "Similar to any Rabi crop, but the soil should not be very pulverised and fine.",
+    "requirements": "Must be free from all established weeds and stubbles of the previous kharif crop.",
+    "rainfed_conditions_treatment": "Treat with 20-25 kg of 5% BHC or heptachlor dust to prevent termite attacks.",
+    "levelling": "The bed should be thoroughly levelled, especially for irrigated conditions, for proper water distribution."
+  },
+  "Fertilizer management": {
+    "recommendations": {
+      "organic_manure": "15-20 tonnes of well-decomposed organic manure (compost or F.Y.M.) for very light soils.",
+      "supplements_per_hectare": {
+        "nitrogen": "15-20 kg",
+        "phosphorus": "60-80 kg",
+        "potash": "20-30 kg",
+        "zinc_sulphate": "15-20 kg (once every three years)"
+      }
+    },
+    "application": "The entire quantity of manures and fertilizers should be basal placed about 10-15 cm deep in furrows (3 to 5 cm below the seed layer)."
+  },
+  "Water management": {
+    "sowing": "Soil should have sufficient moisture at the time of sowing for good germination.",
+    "irrigation": {
+      "schedule": "Two light irrigations are needed after germination.",
+      "timing": "First at 45-50 days and second at 75 days after sowing, or first at flowering and second at pod filling stage.",
+      "total_water_requirement": "Approximately 153.7 mm."
+    }
+  },
+  "Weed control": {
+    "manual": "Two hand weedings at 20 and 45 days after sowing.",
+    "chemical": [
+      {
+        "name": "Basalin",
+        "rate": "0.75 kg a.i./ha",
+        "application": "Pre-plant soil incorporation."
+      },
+      {
+        "name": "Tribunil",
+        "rate": "2.5 kg/ha",
+        "application": "Pre-emergence spray, can substitute for Basalin and controls all weeds."
+      }
+    ]
+  },
+  "Plant protection measures": {
+    "Diseases": {
+      "common_diseases": [
+        "wilt",
+        "root-rot",
+        "powdery mildew"
+      ],
+      "Wilt and root rot": {
+        "control_measures": [
+          "Select wilt-resistant varieties.",
+          "Avoid early sowing to avoid high humidity and high temperature.",
+          "Use treated seed with Ceresan or Captan (2 to 2.5 g/kg seed).",
+          "Adopt crop rotation."
+        ]
+      },
+      "Powdery mildew": {
+        "control_measures": [
+          "Select powdery mildew resistant varieties, like Rachana, Hans, etc.",
+          "Avoid late sowing of the crop.",
+          "Spray with a wettable sulphur compound (e.g., Sulfex, Elosal, Hexasual) at 0.3% solution. Two or three sprayings are needed.",
+          "Dusting with sulphur if spraying is not possible."
+        ]
+      }
+    },
+    "Insect-pests": {
+      "common_pests": [
+        "shoot fly",
+        "caterpillar",
+        "aphids"
+      ],
+      "Shoot fly and caterpillars": {
+        "control": "Spray with 0.05% Thiodan at fortnightly intervals. Two to three sprayings are sufficient."
+      },
+      "Aphids": {
+        "control": "Spray with 0.4% Menazon or 0.25% Dimecron at 8-10 day intervals."
+      }
+    }
+  },
+  "Characteristic features of some of important pea cultivars": {
+    "Table peas": [
+      {
+        "name": "Early December",
+        "description": "Developed from T-19 x Early Badger. An early pod producing variety.",
+        "first_picking": "55-60 days",
+        "pod_characteristics": "6-7 cm long, green.",
+        "yield": "80-100 q/ha green pods."
+      },
+      {
+        "name": "Arkel",
+        "description": "An European early variety.",
+        "first_picking": "55-60 days",
+        "pod_characteristics": "8-10 cm long, containing 5-6 seeds.",
+        "yield": "70-100 quintals/ha in 3 pickings."
+      },
+      {
+        "name": "Bonneville",
+        "description": "An American introduction.",
+        "first_picking": "80-85 days",
+        "pod_characteristics": "7-8 cm long, containing 7-8 seeds.",
+        "yield": "130-140 q/ha green pods."
+      },
+      {
+        "name": "Early Badger",
+        "description": "An American introduction.",
+        "first_picking": "55-60 days",
+        "pod_characteristics": "6-7 cm long, dark green.",
+        "yield": "80-199 q/ha green pods."
+      },
+      {
+        "name": "Asauji",
+        "first_picking": "75-85 days",
+        "pod_characteristics": "5-6 cm long, 5-6 seeds.",
+        "yield": "90-110 q/ha in all."
+      },
+      {
+        "name": "N.P.29",
+        "first_picking": "75-85 days",
+        "yield": "100-120 q/ha green pods."
+      },
+      {
+        "name": "Jawahar Pea-4",
+        "first_picking": "65-70 days",
+        "pod_characteristics": "7-8 cm long, with 5-8 seeds.",
+        "yield": "80-90 q/ha green pods."
+      },
+      {
+        "name": "T.19",
+        "first_picking": "75 days",
+        "yield": "80-100 q/ha."
+      },
+      {
+        "name": "T 56",
+        "description": "Similar to T.19.",
+        "yield": "100-120 q/ha green pods."
+      },
+      {
+        "name": "Madhu",
+        "first_picking": "60th day after sowing."
+      }
+    ],
+    "Field peas": [
+      {
+        "name": "Type-163",
+        "description": "Developed in U.P. through selection from Bulandshahar local.",
+        "maturity": "125-135 days",
+        "characteristics": "White flowers, white shining bold seeds.",
+        "yield": "25-30 q/ha seeds."
+      },
+      {
+        "name": "Rachana",
+        "description": "Developed from Kanpur, U.P. Resistant to powdery mildew.",
+        "maturity": "120-130 days",
+        "characteristics": "Round and white seeds.",
+        "yield": "22-30 q/ha seeds."
+      },
+      {
+        "name": "V.L.I",
+        "description": "Developed from Almora, U.P.",
+        "maturity": "165 days",
+        "characteristics": "White flowers and light yellowish round seeds.",
+        "yield": "25-30 q/ha."
+      },
+      {
+        "name": "Swarn Rekha",
+        "description": "Developed in Bihar.",
+        "maturity": "125 days",
+        "characteristics": "Round smooth seeds of cream colour.",
+        "yield": "15-22 q/ha."
+      },
+      {
+        "name": "P.G.3",
+        "description": "Developed in Punjab.",
+        "characteristics": "White flowers and creamish white wrinkled seeds.",
+        "yield": "25-35 q/ha."
+      },
+      {
+        "name": "Hans",
+        "maturity": "110-120 days",
+        "characteristics": "Small, round and white seed.",
+        "yield": "30-40 q/ha."
+      },
+      {
+        "name": "E.C.33866",
+        "description": "Early maturing variety, suited to high intensity cropping as a catch crop.",
+        "maturity": "90-110 days",
+        "yield": "25-30 q/ha seeds."
+      },
+      {
+        "name": "D.M.R.11",
+        "description": "Resistant to powdery mildew.",
+        "maturity": "130 days",
+        "yield": "25-30 q/ha."
+      },
+      {
+        "name": "Harbhajan",
+        "description": "A selection from an exotic variety.",
+        "maturity": "90-100 days",
+        "characteristics": "Yellowish-white seeds.",
+        "yield": "15 q/ha."
+      },
+      {
+        "name": "Kinnauri",
+        "description": "A selection from Kinnaur local of H.P., suitable for medium hills.",
+        "characteristics": "White, round, and attractive seeds.",
+        "yield": "15-25 q/ha."
+      },
+      {
+        "name": "Pant P.5",
+        "description": "Developed by T10 x T163 in 1985. Resistant to powdery mildew.",
+        "maturity": "140 days",
+        "characteristics": "White, round, smooth and bold seeds.",
+        "yield": "15-20 q/ha."
+      }
+    ]
+  }
+}

@@ -1,0 +1,280 @@
+import os
+import uuid
+import calendar
+from datetime import datetime
+from langgraph_supervisor import create_supervisor
+from langgraph.prebuilt import create_react_agent
+from langchain.chat_models import init_chat_model
+from langchain_tavily import TavilySearch
+from langgraph.checkpoint.memory import InMemorySaver
+
+from dotenv import load_dotenv
+
+##----------Import Required Tools----------
+
+from crop_management_tools.crop_calendar.crop_calendar_tool import get_crop_calendar, get_crops_by_month
+#from crop_management_tools.crop_cultivation_guide.retriever_tool import retrieve_crop_cultivation_info
+from crop_management_tools.crop_cultivation_guide.crop_cultivation_tools import *
+from open_meteo_weather_tool.weather_tool import get_weather, query_weather_variables
+
+load_dotenv()
+
+
+###-------------- datetime information for the agent --------------
+
+def get_date_time_info():
+    now = datetime.now()
+    day_name = calendar.day_name[now.weekday()]
+    month_name = calendar.month_name[now.month]
+
+    print("current time:", now.strftime("%H:%M:%S"), month_name)
+
+    return {
+        "current_date": now.strftime("%Y-%m-%d"),
+        "day": day_name,
+        "month": month_name,
+        "year": now.year,
+        "time": now.strftime("%H:%M:%S")
+    }
+
+# Example usage
+date_time_info = get_date_time_info()
+
+
+## Tavily search for governance-related schemes and policies
+
+tavily_search_tool = TavilySearch(
+    max_results=3,              
+    topic="general",         
+    include_answer=True,        #Include a concise answer/excerpt
+    include_raw_content=True,   #Include full content if needed for summarization
+    include_images=False,       #Policies rarely need images
+    search_depth="basic",       #Basic search is usually sufficient
+    time_range="year"           #Prefer results from the past year for up-to-date schemes
+)
+
+
+###-------------------initialize new tool-------------------
+
+## Create the LLM
+llm = init_chat_model(model = "gpt-4o")
+
+
+##----------Create Sub Agents----------
+
+def create_weather_agent():
+    return create_react_agent(
+    model=llm,
+    tools=[get_weather, query_weather_variables],  
+    name="weather_expert",
+    prompt="""
+    You are a weather forecasting expert specialized in agricultural insights.
+
+    You have access to two tools:
+    IMP: USE EACH TOOL ONLY ONCE!
+
+    1. `get_weather(city_name: str)`
+       - Takes the name of an Indian city as input.
+       - Fetches important weather variables from the local `.cache` (if available and fresh),
+         or calls the Open-Meteo API to retrieve new data, then stores it in `.cache`.
+       - Provides **3-hourly weather forecasts for the next 3 days**, tailored for agricultural needs. 
+       - Variables include:
+           - temperature_2m (°C): Air temperature at 2m above ground
+           - relative_humidity_2m (%): Humidity at 2m above ground
+           - evapotranspiration (mm): Combined water loss from soil + plants
+           - soil_temperature_0cm, 6cm, 18cm (°C): Soil temperatures at different depths
+           - precipitation (mm), precipitation_probability (%): Rainfall and chance of rain
+           - soil_moisture_0_to_1cm, 1_to_3cm, 3_to_9cm, 9_to_27cm (m³/m³): Soil moisture profiles
+           - wind_speed_10m (m/s): Wind speed at 10m above ground
+
+    2. `query_weather_variables(city_name: str, variable: str)`
+       - Fetches a **single weather variable with timestamps** for a given city.
+       - Useful when the user only asks about one factor (e.g., "soil moisture" or "rainfall").
+       - Supported variables:
+           - temperature_2m (°C): Crop growth, pest activity, heat stress
+           - relative_humidity_2m (%): Disease risk, transpiration
+           - evapotranspiration (mm): Irrigation scheduling
+           - soil_temperature_0cm, 6cm, 18cm (°C): Seed germination, root growth, moisture retention
+           - precipitation (mm), precipitation_probability (%): Irrigation planning, harvest timing
+           - soil_moisture_0_to_1cm, 1_to_3cm, 3_to_9cm, 9_to_27cm (m³/m³): Soil water availability
+           - wind_speed_10m (m/s): Pollination, lodging risk, pesticide drift
+
+    Guidelines:
+    - Always use these tools to get data (from cache or API) instead of guessing.
+    - Use `get_weather` when the user wants the **full forecast**.
+    - Use `query_weather_variables` when the user wants **only one specific variable**.
+    - Summarize results in a farmer-friendly format (avoid raw JSON).
+    - Highlight key insights: rain chances, irrigation needs, soil moisture, and extreme conditions.
+    - If the city name is missing or unclear, politely ask the user to clarify before fetching data.
+    """
+)
+
+def create_crop_cultivation_agent():
+    return create_react_agent(
+        model=llm,
+        tools=[search_filename, get_keys, get_context, get_crop_calendar, get_crops_by_month],
+        name="crop_agent",
+        prompt="""
+        You are an agricultural crop cultivation and crop calendar expert.
+        You have access to the following tools:
+
+        1. Use these tools to find and retrieve information about crop cultivation
+                1. `search_filename(crop_name: str) -> str`
+                - Finds the JSON file for a given crop.
+                - If crop name is in another language, check for translations.
+                - Returns filename or None.
+
+                2. `get_keys(filename: str) -> list`
+                - Gets all available section keys for a crop’s guide.
+
+                3. `get_context(filename: str, key: str) -> str`
+                - Extracts detailed content under the given section key.
+
+        2. use the following tools to get crop calendar information: (eg: what crops can i grow in this month, what crops are suitable for this season)
+
+                1. `get_crop_calendar(crop_name: str) -> dict`
+                - Returns crop calendar information (planting, sowing, growth, arrival months) for the crop in India.
+                - Example output: {"planting": ["June", "July"], "sowing": ["August"], ...}
+
+                2. `get_crops_by_month(month: int) -> dict`
+                - Returns all crops categorized by stage (planting, sowing, growth, arrival) for a given month.
+                - Input: integer (1–12). Example: 7 -> July.
+                - Output includes stage-wise crops for that month.
+
+        Guidelines:
+        - First, understand the user’s query.
+        - If the user asks about general crop cultivation (e.g., "How to grow rice?"), use `search_filename → get_keys → get_context`.
+        - If the user asks about crop timelines or stages (e.g., "When is wheat planted?" or "Which crops are sown in July?"):
+            * Use `get_crop_calendar` when the query mentions a specific crop.
+            * Use `get_crops_by_month` when the query mentions a specific month.
+        - Always present the information in simple, farmer-friendly language.
+        - If the crop name, month, or section is unclear, politely ask the user to clarify.
+        """
+    )
+
+def create_policy_agent():
+    return create_react_agent(
+        model=llm,
+        tools=[tavily_search_tool],
+        name="policy_agent",
+        prompt="""
+        You are an expert in agricultural government policies and schemes.
+        Your goal is to provide farmers with accurate, up-to-date, and actionable information.
+
+        Guidelines:
+        - Use the Tavily Search tool to fetch relevant policies and schemes.
+        - Focus only on official and credible government sources.
+        - Present the answer in simple, farmer-friendly language.
+        - If the user query is unclear, ask politely for clarification.
+        - Return the output as plain text that can be directly used by a farmer.
+        """
+    )
+
+##----------Create Supervisor Agent----------
+
+## add memory
+def main():
+
+    with open(".user_info/user_info.json", "r") as f:
+        user_location_info = str(json.load(f))
+
+    checkpointer = InMemorySaver()
+    config = {"configurable": {"thread_id": uuid.uuid4().hex}}
+
+    weather_agent = create_weather_agent()
+    crop_agent = create_crop_cultivation_agent()
+    policy_agent = create_policy_agent()
+
+
+    ## create super-visor workflow
+
+    workflow = create_supervisor(
+        [weather_agent, crop_agent, policy_agent],
+        model=llm,
+        checkpointer=checkpointer,
+        prompt=f"""
+    You are a team supervisor managing three expert agents:
+
+    ## User Info:
+    {user_location_info}
+
+    ## Current Date & Time Info:
+    {str(date_time_info)}  
+
+    You are a team supervisor managing three expert agents:
+
+
+    (Use this when the user asks about "time", "today," "this month," "current_time," "current season," etc. Always resolve relative terms into actual dates/months before passing to agents.)
+
+
+    1. Weather Agent  
+    - Specializes in providing location-based weather forecasts and atmospheric data.  
+    - Useful when the user asks about current conditions, upcoming forecasts, temperature, rainfall, or other weather-related insights.  
+    - Can return detailed hourly forecasts, so make sure to clarify the time range if needed.  
+
+    2. Crop Agent  
+    - Specializes in answering questions about crop cultivation practices and crop calendars in India.  
+    - Uses structured JSON guides stored in the system for each crop, along with crop calendar tools.  
+    - Has access to the following tools:
+        1. Uses these tools to find and retrieve information about crop cultivation:
+
+        * `search_filename(crop_name: str)` → Finds the JSON file for a given crop.
+            - Sometimes the crop name given by the user might be in a different language than the system language; check for translations.  
+        * `get_keys(filename: str)` → Retrieves all available section keys from that crop’s guide.  
+        * `get_context(filename: str, key: str)` → Extracts the detailed content under a given section.  
+
+        2. use the following tools to get crop calendar information: (eg: what crops can i grow in this month, what crops are suitable for this season):
+
+        * `get_crop_calendar(crop_name: str)` → Returns the crop calendar (planting, sowing, growth, arrival months) for the given crop in India.  
+        * `get_crops_by_month(month: int)` → Returns all crops categorized by stage (planting, sowing, growth, arrival) for a given month in India.  
+
+    - Process:
+        * If the query is about cultivation practices (e.g., soil, irrigation, pest control):
+            - Use `search_filename → get_keys → get_context`.  
+        * If the query is about crop timelines or stages:
+            - Use `get_crop_calendar` when the query mentions a specific crop.  
+            - Use `get_crops_by_month` when the query mentions a specific month.  
+        * Always present the information in simple, farmer-friendly language.  
+        * If the crop name, month, or section is unclear, politely ask the user to clarify.  
+
+    3. Policy Agent  
+        * Specializes in providing accurate, up-to-date information about government agricultural policies and schemes.  
+        * Uses the Tavily Search tool to fetch official sources and present actionable insights.  
+        * Process:
+            * Identify if the user’s query relates to government schemes, subsidies, or policy regulations.  
+            * Use the Policy Agent to fetch relevant information and summarize it in simple, farmer-friendly language.  
+        * Always ensure information is credible, recent, and easy to understand for farmers.
+
+
+    Your role as Supervisor:  
+    - Listen to the user’s query and decide which expert is best suited to respond.  
+    - Do not mention that you have retrieved the information from tools.  
+    - Use the information retrieved from tools to craft your response.  
+    - If a query requires input from multiple experts (e.g., weather + crop calendar), coordinate their responses in sequence.  
+    - Always respond in the same language the user used in their query.  
+    - Ensure answers are clear, concise, and tailored for farmers or agricultural professionals.  
+    """,
+        output_mode="last_message",
+    )
+
+
+    # Compile workflow with checkpointer
+    app = workflow.compile(
+        checkpointer=checkpointer,
+    )
+
+    while True:
+        user_prompt = input("User: ")
+        if user_prompt.lower() == 'quit':
+            break
+
+            ## trigger the graph and and the prompt is fed to the llm node to generate reponse
+        result = app.invoke({"messages": [{"role":"user",
+                                            "content": user_prompt}]},
+                                            config=config)
+
+        print(result["messages"][-1].content)
+
+
+if __name__ == "__main__":
+     main()

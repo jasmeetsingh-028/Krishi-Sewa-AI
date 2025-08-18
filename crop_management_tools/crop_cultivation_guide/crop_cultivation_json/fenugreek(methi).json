@@ -1,0 +1,140 @@
+{
+  "introduction": {
+    "origin": "South Eastern Europe and West Asia",
+    "cultivation_as": [
+      "leafy vegetable",
+      "condiment",
+      "medicinal plant"
+    ],
+    "consumption": {
+      "leaves_and_stem": "The fresh tender leaves and stem are consumed as curried vegetable.",
+      "seeds": "The seeds are mainly used as spice for flavoring almost all dishes."
+    },
+    "medicinal_value": [
+      "prevents constipation",
+      "removes indigestion",
+      "stimulates spleen and liver",
+      "appetizing",
+      "diuretic"
+    ]
+  },
+  "Fenugreek(Methi) - Crop Cultivation Guidence": {
+    "botanical_name": "Trigonella foenum-graecum L.",
+    "exports_to": [
+      "Saudi Arabia",
+      "Japan",
+      "Sri Lanka",
+      "Korea",
+      "UK"
+    ],
+    "major_growing_states_in_india": [
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Gujarat",
+      "Uttar Pradesh",
+      "Maharashtra",
+      "Punjab"
+    ],
+    "plant_description": {
+      "type": "annual herb",
+      "height_m": 0.9,
+      "leaves": "light green, pinnately trifoliate",
+      "flowers": "papilionaceous",
+      "fruits": "legume, long, narrow, curved, tapering with a slender point",
+      "seeds": "small deeply furrowed"
+    },
+    "species": [
+      {
+        "name": "T.foenum graecum",
+        "common_name": "common methi"
+      },
+      {
+        "name": "T.corniculata",
+        "common_name": "Kasuri methi",
+        "notes": "A slow growing type and remains in rosette condition during most of its vegetative growth period."
+      }
+    ]
+  },
+  "Climate and Soil": {
+    "adaptability": "Successfully cultivated both in the tropics as well as temperate regions.",
+    "weather_tolerance": "Tolerant to frost and freezing weather.",
+    "rainfall": "Does well in places receiving moderate or low rainfall areas but not in heavy rainfall area.",
+    "soil_type": "Can be grown on a wide variety of soils but clayey loam is relatively better.",
+    "optimum_soil_ph": "6.0 to 7.0"
+  },
+  "Varieties": [
+    {
+      "Variety": "CO1",
+      "Parentage": "Reselection from TG 2336",
+      "Characters": "Duration of the crop is 90 days. Dual purpose quick growing, suited for intercropping, high seed protein 20-23%. Yield per ha 685kg grain, 4.51 of green."
+    },
+    {
+      "Variety": "Rajendra Kanti",
+      "Parentage": "Mass selection",
+      "Characters": "Duration of the crop is 120 days. High yield, medium height, bushy, suited for pure as well as intercropping. Seed protein: 9.5%. yield per ha 1200 - 1400 kg grain"
+    },
+    {
+      "Variety": "RMt-1",
+      "Parentage": "Pure line selection from Nagpur type",
+      "Characters": "Duration of the crop is 145 days. High yield, moderately branched, moderately tolerant, to root rot and powder mildew. Seed protein: 21%. Yield per ha 1500 kg grain"
+    },
+    {
+      "Variety": "Lam Sel.1",
+      "Parentage": "A selection from germplasm",
+      "Characters": "Duration of the crop is 68 days. High yield, bushy plant type. Seed protein: 53%. Yield per ha 750 kg grain"
+    }
+  ],
+  "Land preparation and sowing": {
+    "land_preparation": "Prepared by ploughing thrice and beds of uniform size are prepared.",
+    "sowing_methods": {
+      "common": "Broadcasting the seed in the bed and raking the surface to cover the seeds.",
+      "advocated": "Line sowing in rows at 20 to 25 cm apart which facilitates the intercultural operations."
+    },
+    "sowing_time": {
+      "plains": "September to November",
+      "hills": "from March"
+    },
+    "seed_rate_per_hectare_kg": "20 to 25",
+    "germination_days": "6-8"
+  },
+  "Manures and fertilizers": {
+    "farm_yard_manure_per_ha": "15 tonnes",
+    "fertilizer_dose_per_ha": {
+      "Nitrogen_kg": 25,
+      "Phosphorus_kg": 25,
+      "Potash_kg": 50
+    },
+    "application_schedule": {
+      "basal": "Half of the nitrogen dose and the entire quantity of phosphorus and potash.",
+      "top_dressing": "Remaining half Nitrogen is applied 30 days after sowing.",
+      "for_leafy_growth": "Nitrogen should be applied after each cutting."
+    }
+  },
+  "Irrigation": {
+    "first_irrigation": "Immediately after sowing.",
+    "subsequent_irrigation_interval_days": "7 to 10"
+  },
+  "Harvesting": {
+    "leaf_harvesting": {
+      "first_cutting_days": "25 to 30",
+      "method": "Young shoots are nipped off 4 to 5 cm above ground level.",
+      "subsequent_cuttings_interval_days": 15,
+      "pre_flowering_cuttings": "1 to 2 cuttings before the crop is allowed for flowering and fruiting."
+    },
+    "seed_harvesting": "When pods are dried, the plants are pulled out, dried in the sun and seeds are threshed by beating with stick or by rubbing with hands.",
+    "post_harvest_processing": "Seeds are winnowed, cleaned and dried in the sun.",
+    "storage": "Stored in gunny bags lined with paper."
+  },
+  "Yield": {
+    "note": "For crops grown for both seeds and leaves.",
+    "seeds_per_hectare_kg": "1200 to 1500",
+    "leaves_per_hectare_kg": "800 to 1000"
+  },
+  "Plant protection": {
+    "root_rot": {
+      "pathogen": "Rhizoctonia solani",
+      "description": "A serious disease.",
+      "control": "Drenching carbendazim 0.05% first at the onset of the disease and another after one month."
+    }
+  }
+}

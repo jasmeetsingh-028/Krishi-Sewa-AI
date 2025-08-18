@@ -1,0 +1,82 @@
+{
+  "Introduction": {
+    "scientific_name": "Beta vulgairs L.",
+    "description": "Another important sugar producing crop in which sugar is stored in roots is purely a creation of plant breeding.",
+    "potential_areas": [
+      "Punjab",
+      "Haryana",
+      "Rajasthan",
+      "western Uttar Pradesh"
+    ],
+    "crop_type": "winter sugar beet"
+  },
+  "Requirement": {
+    "Climate": {
+      "regions": "temperate regions",
+      "adaptation": "Genetic and agro-technological improvements have now extended its frontiers to higher latitudes of subtropics as an irrigated winter crop."
+    },
+    "Soil": {
+      "optimal_types": [
+        "loams",
+        "clayey loams"
+      ],
+      "reaction": "near neutral",
+      "tolerance": "high tolerance to soil salinity and alkalinity",
+      "poor_performance": "acid soils",
+      "unsuitable": [
+        "Poorly drained",
+        "water logged soils"
+      ]
+    }
+  },
+  "Varieties": [
+    "Danish polyploid multigerm",
+    "Maribo Magnapo",
+    "Maribo Mahapoly",
+    "Ramonskaya 06"
+  ],
+  "Sowing": {
+    "method": "Sown in lines, about 50cm apart either on flat beds or on ridges.",
+    "seedbed_preparation": "The seedbed is prepared in the same manner as for rabi sowings. The land is prepared to a good tilth by repeated ploughing and planking.",
+    "seed_rate": "About 10kg of unprocessed seed is sufficient to sow one hectare.",
+    "seed_treatment": "To facilitate germination, the seed may be soaked in 0.25% solution of a mercurial compound or Aretan or Agallol overnight.",
+    "sowing_condition": "The seed can be sown when it is dry.",
+    "sowing_time": "The first fortnight of October.",
+    "sowing_delay_effect": "The crop has a poor tolerance to delays in sowing and sowings beyond October are detrimental to yield and sugar content.",
+    "techniques": [
+      "dibbling manually",
+      "drilling"
+    ],
+    "depth": "about 3cm deep"
+  },
+  "Fertilizer": {
+    "nitrogen": "120kg per hectare",
+    "phosphorus": "80 kg per hectare in deficient soils",
+    "potassium": "100kg of potash per hectare in deficient soils",
+    "application_schedule": "The nitrogen fertilizer is given in three splits at sowing, thinning, and earthing-up in December."
+  },
+  "Irrigation": {
+    "frequency": "8-10 irrigations, depending upon the seasonal conditions.",
+    "importance": "Timely irrigation is very essential to ensure of good yield of the roots.",
+    "critical_phases": "formative leaf growth and root development",
+    "warning": "Excessive irrigation to the crop is highly detrimental to root quality."
+  },
+  "Plant protection": {
+    "Pest": {
+      "name": "Cutworms",
+      "damage": "This pest is likely to spread rapidly in the tender crop and cause serious damage.",
+      "Control": "Spraying 20% E.C. Heptachlor diluted in 3,500 litres of water per hectare."
+    },
+    "Disease": {
+      "name": "Seedling rot",
+      "Control": "Control includes seed polishing and seed treatment with 20kg of PCNB per hectare as soil drench before the appearance of the disease."
+    }
+  },
+  "Harvesting": {
+    "method": "A country plough is run along the sugar beet rows on both sides. This operation facilitates the lifting of the roots with a slight pull of the kudali.",
+    "post_harvest_handling": {
+      "cleaning": "The plants after uprooting should be freed from the adhering soil, but the roots should not be washed in water for cleaning, as this practice induces rapid deterioration.",
+      "topping": "The roots must be topped clean. Leaves or leaf bases allowed to remain on the roots seriously affect the recovery of sugar."
+    }
+  }
+}

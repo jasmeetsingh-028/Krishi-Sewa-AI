@@ -1,0 +1,85 @@
+{
+  "Introduction": "Sesamum (Sesame indicum) is an important oilseed crop. Its oil content varies between 46 and 52%. Sesamum oil is used for cooking, for anointing the body, in the manufacture of perfumes. It also has medicinal value. Its oil cake is nutritious food for milch cattle.",
+  "Requirement": {
+    "Climate": "Sesamum grows in the plains an at elevations up to 1,200m. It cannot stand frost, continued heavy rain or prolonged drought.",
+    "Soil": "They are grown on a variety of soils ranging from light to heavy and sandy to black soils provided they are well drained. Sandy loams with adequate soil moisture and neutral in reaction are more suitable. The pH of sesamum growing soils ranges from 5.5 to 8.5."
+  },
+  "Varieties": [
+    "Rajeshwari",
+    "Swetha-til",
+    "Gowri",
+    "Madhavi",
+    "YLM"
+  ],
+  "Land preparation and sowing": {
+    "Preparation": "About 2 ploughing are necessary to obtain fine tilth. This is followed by harrowing and levelling.",
+    "Sowing_method": "The crop should be sown in lines.",
+    "Spacing": {
+      "between_rows": "30cm",
+      "between_plants": "15cm"
+    },
+    "Seed_preparation": "Seed should be mixed with sand in 1:3 ratio.",
+    "Seed_rate": "3-5kg per hectare",
+    "Seed_treatment": "Seeds must be treated with captan or thiram at 3 g/kg of seed."
+  },
+  "Manuring and Fertilizer": {
+    "Farm_yard_manure": "2.5-5 tonnes per hectare",
+    "Fertilizer_application": {
+      "Kharif": "40kg N, 60kg P2O5 and 40kg K20 per ha",
+      "Rabi": "60kg N, 60kg P2O5 and 40kg K20 per ha"
+    },
+    "Application_schedule": "Apply half of the nitrogen and entire P and K as basal dressing and remaining half of the nitrogen at 25-30 days after sowing as top dressing."
+  },
+  "Intercultural operation": {
+    "Weeding": "The hand-weedings followed by one hoeing during early crop period should be done to keep the crop free from weeds.",
+    "Thinning": "Thinning must be done 14 days after germination.",
+    "Irrigation": "In case of irrigated crop, give the first irrigation after sowing and second 25-30 days after sowing when the plants are 15cm tall. It is essential to irrigated the crop during flowering and capsule formation stage."
+  },
+  "Irrigation": {
+    "Requirement": "It requires only light irrigations as water logged areas affect germination.",
+    "Schedule": "In case of irrigated crop, give the first irrigation after sowing and second 25-30 days after sowing when the plants are 15cm tall. It is essential to irrigate the crop during flowering and capsule formation stage."
+  },
+  "Plant protection": {
+    "Insect pests": [
+      {
+        "name": "Leaf-roller and pod-borer",
+        "description": "It feed on the leaves and take shelter inside webs.",
+        "Control": "Spraying endosulphon (35%, 2 ml/litre of water) is recommended to control this pest."
+      },
+      {
+        "name": "Gall-fly",
+        "description": "The larvae of gall-fly eat the floral parts and affect seed setting.",
+        "Control": "Dusting of 10% carbaryl at 12 kg/ha or spraying endosulphon or ekalux (2ml/litre) helps in controlling the pest."
+      }
+    ],
+    "Disease": [
+      {
+        "name": "Leaf spots",
+        "description": "Leaf spots appear at all stages of the crop.",
+        "Control": "Using resistant varieties and seed treatment with thiram at 3 g/kg seed are the best ways to avoid the disease. Spray mancozeb (dithane M-45) 2g/litre of water to contain the disease."
+      },
+      {
+        "name": "Phytophthora blight",
+        "description": "Small water soaked irregular brown spots appear on the leaves which dry up and wither. Capsules of heavily affected plants do not produce seeds.",
+        "Control": "It can be controlled by spraying 0.3% blitox for its control."
+      },
+      {
+        "name": "Root/stem rot",
+        "description": "The rot and collar regions of the stem become brown. Gradually the whole Plant turns brown.",
+        "Control": "Avoid monocropping, spraying carbendizm (bavistin) 1g or mancozeb at 2 g per litre of water will help to control the disease."
+      },
+      {
+        "name": "Powdery mildew",
+        "description": "Under moist and cool conditions, the disease develops fast covering the leaves with mycelium. The plant is defoliated before maturity.",
+        "Control": "Spraying 0.2% wettable sulphur controls the disease."
+      }
+    ]
+  },
+  "Harvesting and yield": {
+    "Harvesting": "The crop is harvested when the leaves, stems and capsule begin to turn yellow and the lower leaves start shedding. To prevent the shedding of grains, the crop should not be allowed to become dead ripe in the field.",
+    "Yield": {
+      "kharif_unmixed": "200-500 kg per hectare",
+      "semi_rabi_and_irrigated_summer": "300-600 kg per hectare"
+    }
+  }
+}

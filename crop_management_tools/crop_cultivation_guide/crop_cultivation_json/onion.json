@@ -1,0 +1,150 @@
+{
+  "Introduction": {
+    "family": "Amaryllidaceae",
+    "botanical_name": "Allium cepa",
+    "india_rank": {
+      "area": "second",
+      "production": "third"
+    },
+    "world_statistics": {
+      "total_area_hectare": "19,77,000",
+      "total_production_mt": "2,79,18,000"
+    },
+    "major_producing_countries": [
+      "North America",
+      "Japan",
+      "Spain",
+      "Netherland",
+      "Canada"
+    ],
+    "major_producing_states_in_india": [
+      "Gujarat",
+      "Punjab",
+      "Haryana"
+    ],
+    "maharashtra_cultivation_area_hectare": "54,600"
+  },
+  "Climate and Soil": {
+    "soil_pH": "6.5 to 8",
+    "soil_type": "Well drained loamy soils, rich in humus, with fairly good content of potash.",
+    "soil_conditions": "The soil should be well aerated. Heavy soil should be avoided. The bulbs produced on sandy or loose soils are deformed and do not keep well in storage.",
+    "climate": "It is grown under a wide range of climatic conditions, but cannot stand too hot or too cold weather.",
+    "temperature": "Prefers moderate temperature in summer as well as in winter.",
+    "day_length": "Short days are very favorable for the formation of bulbs.",
+    "elevation_msl": "1000 to 1300 m"
+  },
+  "Varieties": [
+    "Pusa Red",
+    "Pusa Ratnar",
+    "Pusa White Round",
+    "Patna Red",
+    "Poona Red",
+    "Arka Pragati",
+    "Arka Niketa",
+    "Patna White",
+    "Bombay White",
+    "Nasik Red"
+  ],
+  "Planting Habits": {
+    "growth_cycle": "Annual or biennial",
+    "scope": "The smooth, glaucous scope grows from 1 to 3 feet high. The scope or stem is hollow and swollen above the base.",
+    "leaves": "Swollen at base and hollow.",
+    "flowers": "Terminal, umbel, white or faint blue, numerous, develop bulbels.",
+    "bulb": "Underground bulb undeveloped like the stem.",
+    "propagation_method": "By Bulbels"
+  },
+  "Propagation": {
+    "vegetable_group": "Bulb vegetables",
+    "nursery_sowing_time": {
+      "general": "October to November",
+      "south_and_eastern_india": "September to October",
+      "hills": "March to June"
+    },
+    "seed_rate_per_hectare": "8-10 kg",
+    "transplanting_time": "December and January",
+    "note": "Early transplanting yields more.",
+    "bulb_and_bullet_sowing_rate_per_hectare": "1000-1200 kg"
+  },
+  "Planting": {
+    "nursery_sowing_time": {
+      "plains": "middle of October to the end of November",
+      "hills": "March to June"
+    },
+    "planting_distance_seedlings_cm": "15 X 10 or 20 X 10"
+  },
+  "Application of Manures and Fertilizer": {
+    "F.Y.M.": "200-250 g/hectare",
+    "N": "45-65 Kg/hectare",
+    "P": "40-60 kg/hectare",
+    "K": "60-100 kg/hectare"
+  },
+  "Irrigation": {
+    "guideline": "Irrigation during growth should be steady and uninterrupted otherwise dryness may cause splitting of the outer scales.",
+    "stopping_point": "Irrigation is stopped when the tops mature and start falling.",
+    "yield_tip": "Use F1 hybrids for higher yield."
+  },
+  "Plant Protection": {
+    "Pest": {
+      "Thrips": "Spray Malathion or Nuvacron (0.1%)",
+      "Borer": "Spray Endosulfan (0.1%)",
+      "Maggot": "Apply Thimet 10G to soil and spray Malathion (0.05%)"
+    },
+    "Diseases": {
+      "Downy mildew": "Spray Difolatan (0.1%) or Dithane M-45 (0.2%)",
+      "Smut": "Spray Captan, Biltox or Thiram 75%"
+    }
+  },
+  "Yield": {
+    "onion_yield_per_hectare": "25 to 30 tonnes",
+    "garlic_yield_per_hectare": "6 to 10 tonnes",
+    "post_harvest_note": "Bulbs should be thoroughly cured before storage."
+  },
+  "Storage": {
+    "affecting_factors": {
+      "Selection of Variety": {
+        "storage_season_crop": "rabi season",
+        "storage_duration": "4 to 5 months",
+        "suitable_varieties": [
+          "N 2-4-1",
+          "Agrifound light red",
+          "Arka niketan"
+        ]
+      },
+      "Fertilizers and water management": {
+        "influence": "Doses of fertilizers, type of fertilizers and irrigation affects the storing capacity of onion / shelf life of onion.",
+        "organic_matter_effect": "Increases the storing capacity of onion.",
+        "suggested_rate_per_hectare": "150:50:50, N:P:K kg",
+        "irrigation": "According to soil tag crop should be irrigated."
+      },
+      "Drying of onion": {
+        "process": "Immediately after harvest let the onion should get dried for about 8 to 10 days.",
+        "benefits": "Helps to remove the excess heat giving better colour to onion."
+      },
+      "Actual storage conditions": {
+        "parameters": "Temperature and humidity",
+        "optimum_temperature": "25 to 30 0C",
+        "optimum_relative_humidity": "65 to 70%",
+        "adverse_conditions": {
+          "excess_humidity_and_temperature": "Results in fungal growth.",
+          "decrease_in_humidity": "Increases respiration rate causing weight loss.",
+          "may_june": "More temperature and less relative humidity affects the weight loss.",
+          "july_september": "Temperature goes down resulting in sprouting of onion."
+        },
+        "recommendation": "Construction of proper storage structure is required."
+      },
+      "Construction of storage structure": {
+        "guidelines": [
+          "Storage structure should be constructed 30cm from the ground level giving cement base which avoids contact with soil moisture.",
+          "For roofing purpose sugarcane trash, asbestos sheet is used which lowers down the temperature.",
+          "For good aeration central height should be optimum (120cm) giving sloppy structure.",
+          "Care should be taken that the stored onions should not get directly expose to sunlight which gives good colour and improves the structure of onion.",
+          "1ft3 area can store 20kg of onion."
+        ],
+        "stabilization": "Before and after storage of the storage structure can be done by spraying 10g Bavistin + 15ml neuocron in 10 liters of water which helps in controlling the pest."
+      }
+    }
+  },
+  "Cost of the project": {
+    "storage_structure_cost": "Minimum Rs.20,000 to 25,000"
+  }
+}

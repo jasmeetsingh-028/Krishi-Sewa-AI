@@ -1,0 +1,324 @@
+[
+  {
+    "Title": "Maize Cultivation : Advanced Maize Production Technologies",
+    "Introduction": "Maize (Zea mays L.) is one of the most versatile emerging crop shaving wider adaptability under varied agro-climatic conditions. Globally, maize is known as queen of cereals because it has the highest genetic yield potential among the cereals. It is cultivated on nearly 150 m ha in about 160 countries having wider diversity of soil, climate, biodiversity and management practices that contributes 36 % (782 m t) in the global grain production. The United States of America (USA) is the largest producer of maize contributes nearly 35% of the total production in the world and maize is the driver of the US economy. The USA has the highest productivity (> 9.6 t ha-1) which is double than the global average (4.92 t ha-1). Whereas, the average productivity in India is2.43 t ha-1. In India, maize is the third most important food crops after rice and wheat. According to advance estimate it is cultivated in 8.7m ha (2010-11) mainly during Kharif season which covers 80% area. Maize in India, contributes nearly 9 % in the national food basket and more than Rs. 100 billion to the agricultural GDP at current prices apart from the generating employment to over 100 million man-days at the farm and downstream agricultural and industrial sectors. In addition to staple food for human being and quality feed for animals, maize serves as a basic raw material as an ingredient to thousands of industrial products that includes starch, oil, protein, alcoholic beverages, food sweeteners, pharmaceutical, cosmetic, film, textile, gum, package and paper industries etc.",
+    "Importance": {
+      "Forage_and_Feed": "The next important field where maize finds extensive use is for livestock feeds viz, cattle Poultry and piggery both in the form of seeds and fodder. The green fodder can be fed to milch cattle to boost the milk production of a considerable extent; “South African Maize” is a best suited variety for fodder. The crop has to be harvested when the grains are in milky stage, This variety is supposed to have Lactogenic effect hence especially suited for milch cattle. The digest ability of maize fodder is higher than sorghum, bajra and other non-leguminous forage crops.",
+      "Food": {
+        "description": "In most of the developing countries maize is consumed directly as food. In India, over 85 percent of the maize production is used as food. Most commonly used forms are as:",
+        "forms": [
+          "Chapattis",
+          "Porridges of various forms",
+          "Boiled or roasted green ears",
+          "Breakfast foods like corn flakes",
+          "Pop corn"
+        ],
+        "note": "For the (iii) and (v) category sweet and Pop corn varieties are especially grown in USA and Europe."
+      },
+      "Other_Uses": "The maize cob, the central rachis to which the grains are attached remains as an agricultural waste after threshing; it finds many important agricultural and industrial uses. Approximately it forms 15 to 18% of the total ear weight and contains 35% cellulose, 40% pentose and 15% lignin’s. Their uses in agriculture includes as a litter for poultry and as a soil conditioner.",
+      "Industrial_Uses": "The industrial uses based on the physical properties of the cob when ground to powder are as fillers for explosives in the manufacture of plastics, glues, adhesives, reyon, resin, vinegar and artificial leather and as diluents and carrier in the formulation of insecticides and pesticides. Based on the chemical properties the processed cbs find their use in the manufacture of furfurol, fermentable sugars, solvents, liquid fuels, charcoal gas and other chemicals by destructive distillation, and also in the manufacture of pulp, paper and hard boards."
+    },
+    "Land_Preparation": "Maize requires a firm and compact seedbed free from stubbles and weed. One deep ploughing should be given, followed by two or three harrowings to bring the soil to a fine tilth. Add 10-15 tons of FYM or compost before last harrowing and mix thoroughly with harrow.",
+    "Ecological_Requirement": {
+      "Climate": "Maize does well on a wide range of climatic conditions, and it is grown in the tropical as well as temperate regions, from sea-levels up to altitudes of 2500m. It is however susceptible to frost at all stages of its growth.",
+      "Soil": "Maize can be grown successfully in variety of soils ranging from loamy sand to clay loam. However, soils with good organic matter content having high water holding capacity with neutral pH are considered good for higher productivity. Being a sensitive crop to moisture stress particularly excess soil moisture and salinity stresses; it is desirable to avoid low lying fields having poor drainage and also the field having higher salinity. Therefore, the fields having provision of proper drainage should be selected for cultivation of maize."
+    },
+    "Seed_and_sowing": {
+      "Selection_of_seed": "Seed should be free from insect, pest and disease free. It should be free from weed seed. It should be purchased from reliable sources. It should be high germination percentage.",
+      "Seed_treatment": {
+        "description": "To protect the maize crop from seed and major soil borne diseases and insect-pests, seed treatment with fungicides and insecticides before sowing is advisable/ recommended as per the below given details.",
+        "application_rates": [
+          {
+            "disease_or_insect_pest": "Turcicum Leaf Blight, Banded Leaf and Sheath Blight, Maydis Leaf Blight",
+            "fungicide_or_pesticide": "Bavistin + Captan in 1:1 ratio",
+            "rate_of_application_g_per_kg_seed": 2.0
+          },
+          {
+            "disease_or_insect_pest": "BSMD",
+            "fungicide_or_pesticide": "Apran 35 SD",
+            "rate_of_application_g_per_kg_seed": 4.0
+          },
+          {
+            "disease_or_insect_pest": "Pythium Stalk Rot",
+            "fungicide_or_pesticide": "Captan",
+            "rate_of_application_g_per_kg_seed": 2.5
+          },
+          {
+            "disease_or_insect_pest": "Termite and shoot fly",
+            "fungicide_or_pesticide": "Imidachlorpit",
+            "rate_of_application_g_per_kg_seed": 4.0
+          }
+        ]
+      },
+      "Sowing_time": {
+        "description": "The optimum time of sowing are given below.",
+        "schedule": [
+          {
+            "Season": "Kharif",
+            "Optimum_time_of_sowing": "Last week of June to first fortnightJuly"
+          },
+          {
+            "Season": "Rabi",
+            "Optimum_time_of_sowing": "Last week of October for inter cropping and up to15th of November for sole crop"
+          },
+          {
+            "Season": "Spring",
+            "Optimum_time_of_sowing": "First week of February"
+          }
+        ]
+      },
+      "Sowing_method": "Maize seed should be sown with dibbling or drilling method. It is depending on purpose of sowing, type of of maize, varieties and farm condition. Seed should not be sown more 5-6 cm depth of soil.",
+      "Seed_rate_and_plant_geometry": {
+        "description": "To achieve higher productivity and resource-use efficiencies optimum plant stand is the key factor. The seed rate varies depending on purpose, seed size, plant type, season, sowing methods etc. The following crop geometry and seed rate should be adopted.",
+        "rates_and_geometry": [
+          {
+            "Sr_No": 1,
+            "Purpose": "Grain (normal and QPM)",
+            "Seed_rate_kg_ha-1": 20,
+            "Plant_geometry_plant_x_row_cm": "60 x 20\n75 x 20",
+            "Plant_population": "83333\n66666"
+          },
+          {
+            "Sr_No": 2,
+            "Purpose": "Sweet corn",
+            "Seed_rate_kg_ha-1": 8,
+            "Plant_geometry_plant_x_row_cm": "75 x 25\n75 x 30",
+            "Plant_population": "53333\n44444"
+          },
+          {
+            "Sr_No": 3,
+            "Purpose": "Baby corn",
+            "Seed_rate_kg_ha-1": 25,
+            "Plant_geometry_plant_x_row_cm": "60 x 20\n60 x 15",
+            "Plant_population": "83333\n111111"
+          },
+          {
+            "Sr_No": 4,
+            "Purpose": "Pop corn",
+            "Seed_rate_kg_ha-1": 12,
+            "Plant_geometry_plant_x_row_cm": "60 x 20",
+            "Plant_population": "83333"
+          },
+          {
+            "Sr_No": 5,
+            "Purpose": "Green cob (normal maize)",
+            "Seed_rate_kg_ha-1": 20,
+            "Plant_geometry_plant_x_row_cm": "75 x 20\n60 x 20",
+            "Plant_population": "66666\n83333"
+          },
+          {
+            "Sr_No": 6,
+            "Purpose": "Fodder",
+            "Seed_rate_kg_ha-1": 50,
+            "Plant_geometry_plant_x_row_cm": "30 x 10",
+            "Plant_population": "333333"
+          }
+        ]
+      }
+    },
+    "Varieties_Recommended": {
+      "For_Higher_and_Mid-altitudes_800_m_above_MSL": {
+        "Local_Varieties": [
+          "Local",
+          "Local Yellow"
+        ],
+        "High_Yielding_Varieties_HYVs": [
+          "Vijay",
+          "Kisan",
+          "NLD White",
+          "Naveen"
+        ]
+      },
+      "For_Lower_Altitudes_Below_800m": [
+        "Vijay",
+        "Kisan",
+        "Diara",
+        "Ganga Safed-2",
+        "Ganga -101"
+      ]
+    },
+    "Nutrient_management": {
+      "description": "Among all the cereals, maize in general and hybrids in particular are responsive to nutrients applied either through organic or inorganic sources. The rate of nutrient application depends mainly on soil nutrient status/balance and cropping system. For obtaining desirable yields, the doses of applied nutrients should be matched with the soil supplying capacity and plant demand (Site-specific nutrient management approach) by keeping in view of the preceding crop (cropping system). Response of maize to applied organic manures is notable and hence integrated nutrient management (INM) is very important nutrient management strategy in maize based production systems. Therefore, for higher economic yield of maize, application of 10 t FYM ha-1, 10-15 days prior to sowing supplemented with 150-180 kg N, 70-80 kg P2O5, 70-80 kg K2O and 25 kg ZnSO4 ha-1 is recommended. Full doses of P, K and Zn should be applied as basal preferably drilling of fertilizers in bands along the seed using seed-cum-fertilizer drills. Nitrogen should be applied in 5-splits as detailed below for higher productivity and use efficiency. N application at grain filling results in better grain filling. Therefore, nitrogen should be applied in five splits as per below mentioned for higher N use efficiency.",
+      "Nitrogen_Application_Schedule": [
+        {
+          "Sr_No": 1,
+          "Crop_stage": "Basal (at sowing)",
+          "Nitrogen_rate_percent": 20
+        },
+        {
+          "Sr_No": 2,
+          "Crop_stage": "V4 (four leaf stage)",
+          "Nitrogen_rate_percent": 25
+        },
+        {
+          "Sr_No": 3,
+          "Crop_stage": "V8 (eight leaf stage)",
+          "Nitrogen_rate_percent": 30
+        },
+        {
+          "Sr_No": 4,
+          "Crop_stage": "VT (tasseling stage)",
+          "Nitrogen_rate_percent": 20
+        },
+        {
+          "Sr_No": 5,
+          "Crop_stage": "GF (grain filling stage)",
+          "Nitrogen_rate_percent": 5
+        }
+      ]
+    },
+    "Water_management": "The irrigation water management depends on season as about 80 % of maize is cultivated during monsoon season particularly under rainfed conditions. However, in areas with assured irrigation facilities are available, depending upon the rains and moisture holding capacity of the soil, irrigation should be applied as and when required by the crop and first irrigation should be applied very carefully wherein water should not overflow on the ridges/beds. In general, the irrigation should be applied in furrows up to 2/3rd height of the ridges/beds. Young seedlings, knee high stage (V8), flowering (VT) and grain filling (GF) are the most sensitive stages for water stress and hence irrigation should ensured at these stages. In raised bed planting system and limited irrigation water availability conditions, the irrigation water can also be applied in alternate furrow to save more irrigation water. In rainfed areas, tied-ridges are helpful in conserving the rainwater for its availability in the root zone for longer period. For winter maize, it is advisable to keep soil wet (frequent & mild irrigation) during 15 December to 15 February to protect the crop from frost injury.",
+    "Weed_management": "Weeds are the serious problem in maize, particularly during kharif /monsoon season they compete with maize for nutrient and causes yield loss up to 35 %. Therefore, timely weed management is needed for achieving higher yield. Atrazine being a selective and broad-spectrum herbicide in maize checks the emergence of wide spectrum of weeds. Pre-emergence application of Atrazine (Atratraf 50 wp, Gesaprim 500 fw) @ of 1.0-1.5 kg a.i ha-1 in 600 litre water, Alachlor (Lasso) @ 2-2.5 kg a.i ha-1, Metolachlor (Dual) @ 1.5-2.0 kg a.i ha-1, Pendamethalin (Stomp) @ 1-1.5 kg a.i. ha-1 are effective way for control of many annual and broad leaved weeds. While spraying, following precautions should be taken care by the person during spray, he should move backward so that the Atrazine film on the soil surface may not be disturbed. Preferably three boom flat fan nozzle should be used for proper ground coverage and saving time. One to two hoeing are recommended for aeration and uprooting of the remaining weeds, if any. While doing hoeing, the person should move backward to avoid compaction and better aeration. For areas where zero tillage is practiced, pre-plant application (10-15 days prior to seeding) of non-selective herbicides viz., Glyphosate @ 1.0 kg a.i. ha-1 in 400-600 litre water or Paraquat @ 0.5 kg a.i. ha-1 in 600 litre water is recommended to control the weeds. Under heavy weed infestation, post-emergence application of Paraquat can also be done as protected spray using hoods.",
+    "Plant_protections": {
+      "Diseases": {
+        "Leaf_Blight": {
+          "description": "Manifestation of oval to round, yellowish-purple spots on leaves. The affected leaves dry up and appear as if burnt. In severe cases, the plants may become stunted, resulting in poorly-formed ears.",
+          "Control": "The crop can be sprayed with Dithane M-45 or Indofil @ 35-40 gms or Blue Copper @55 -60 gms in 18 litres water, 2 -3 sprays at 15 days interval, will effectively control the disease."
+        }
+      },
+      "Insect_Pests": {
+        "Stem_borer": {
+          "description": "These borers feed on leaves in the earlier stages. Later on they bore into the stem and cobs, rendering the plant unproductive.",
+          "Control": [
+            "After harvest, the stalks and stubbles should be collected from the field and burnt.",
+            "Crop can be sprayed twice with Thiodan 35 EC @ 27 ml in 18 litres water, once 20-25 days after germination and the second spray at the time of grain formation (in endemic areas)."
+          ]
+        },
+        "Red_Hairy_Caterpillars": {
+          "description": "Caterpillars feed and destroy the whole plant if the attack is in the early stages of growth.",
+          "Control": [
+            "Egg masses and young caterpillars should be collected as soon as detected, and destroyed.",
+            "The field should be ploughed out after the crop is harvested, so as to expose pupae.",
+            "Thiodan 35 EC @ 27 ml in 18 litres water should be sprayed only as last resort."
+          ]
+        },
+        "Aphids": {
+          "description": "Tiny, soft bodied insects, usually green in colour. Nymphs and adults suck the sap from leaves and young shoots.",
+          "Control": "The crop can be sprayed with Rogor 30 EC @ 18 ml in 18 litres water."
+        },
+        "Grass_hoppers": {
+          "description": "Short-winged hoppers, laying eggs in the soil at a depth of 7.5 to 20 cms, adults feed on foliage.",
+          "Control": "Thiodan 35 EC @ 25 ml or Ekalux 25 EC@ 28 mi in 18 litres water can be sprayed."
+        },
+        "Termites": {
+          "description": "These pests attack young seedlings as well as mature plants; attack is also visible on roots and lower parts of the plants.",
+          "Control": "Thiodan 4 % Dust @ 12-15 kg per hectare is applied and mixed well with the soil."
+        }
+      }
+    },
+    "Harvesting": {
+      "Grains": "Cobs which are to be utilized as grain should be harvested when the grains are almost dry or containing roughly 20 % moisture. The appearance in the grains of composite and high yielding varieties however may be misleading as grains become dry while the stalk and leaves are still green. The cobs are removed from the standing crop and sun dried before shelling, otherwise retained in their jackets, if kept for seed or to be consumed or utilized at a later stage.",
+      "Sweet_corn": "For sweet corn harvesting, harvest when tassels begin to turn brown and cobs start to swell. Kernels should be full and milky. Pull ears downward and twist to take off stalk.",
+      "Baby_corn": "For the Baby corn, harvested young cobs, especially when the silks have either not emerged or just emerged, and no fertilization has taken place, depending on the cultivar grown."
+    },
+    "Source": "Dr. H. L. Shirsath\nAssistant Professor of Agronomy,\nDr. Vithalrao Vikhe Patil Foundation’s College of Agriculture, Ahmednagar"
+  },
+  {
+    "Title": "General Maize Cultivation",
+    "Introduction": "Even though it is generally agreed that the maize( Zea mays L) is a natives of the Americans, yet the views on the date of its introduction into India differ. That maize was introduced into India by the Portuguese during the seventh century is often quoted, but the more recent evidence support the possibilities of its Pre-Colombian introduction through the Atlantic Arabian trade route. The latter evidence is also supported by the more recent variability that has been observed in the maize collections made from the north eastern Himalayan region. However, the historic records regarding the cultivation of maize in India date back only to the Maratha Empire.\nMaize is one of the most important cereals of the world. With its world average yield of 27.8 q\\ha maize ranks first among the cereals and is followed by rice, wheat, and millets, with average grain yield of 22.5, 16.3 and 6.6 q/ha respectively. In terms of world acreage, India stands only next to the USA, Brazil, China and Mexico, with regards to production to ranks eleventh countries in order of production are USA, China, Brazil, Argentina, Mexico, France, South Africa, the USSR, Rumania, Yugoslavia and India.\nMaize in India is an important cereal, and both its area and production have steadily increased during the past two decades. In terms of area and production, it ranks only next to rice, wheat, jowar and . The states of Uttar Pradesh, Bihar, Madhya Pradesh and Rajasthan and Punjab account for over 75 per cent of the area and production of this cereal in the country. Each of the districts of Bahraich, Gonda and Bulandshahr in Uttar Pradesh; Monghyr, saran and Darbhanga in Bihar; Udaipur and Bhilwara in Rajasthan; and Panchmahal in Gujarat put annually over one lakh of hectares in maize. These nine districts account for a quarter of a national area and production of maize in India. Being an important cereal, over 85 per cent of its production in the country is consumed directly as food in various forms; the chapatis are the commonest preparation, whereas roasted ears, popcorn and porridge are other important forms in which maize is consumed. The use of maize in animal feed, particularly for poultry, and in the starch industry is increasing. Green maize plants also furnish a very succulent fodder during spring and monsoon, particularly in northern India.",
+    "Climate_and_soil": "Maize requires fertile, deep and well drained soils. However, it can be grown on any type of soil, ranging from deep heavy clays to light sandy ones. It is, however, necessary that the pH of the soil does not deviate from the range 7.5 to 8.5 Maize plants, particularly in the seedling stage, are highly susceptible to salinity and water . Accordingly the provision of proper drainage is essential for the successful cultivation of this crop. The slight sandy soils greatly facilitated drainage, but have a relatively poor water holding capacity; on the contrary, very heavy soils, with excellent water holding capacity, have relatively poor drainage. Hence, soils ideally suited for maize cultivation should have adequate water holding capacity and should also provide for good drainage. Over 85 per cent of the maize acreage is own under rain fed conditions during the monsoon when over 80 per cent of the annual rainfall is received.\nMaize is essentially a warm weather crop. It is grown under extremely divergent climatic conditions in different parts of the world, ranging from tropical to temperate regions. It is widely cultivated from the sea level upto altitudes of 2,500 m. It can be successfully grown where the night temperature does not go below 15.60C (600F). It cannot withstand frost any stage of its growth. In India, its cultivation extends from the hot arid Plains of Rajasthan and Gujarat to the wet hills of Assam and Bengal (receiving over 400 cm of rainfall).\nMost of the maize varieties grown in India are relatively early in maturity (80-95 days); hence to sustain the rapid rate of growth, an adequate supply of soil moisture is essential. It has been estimated that the maize crop requires about 50 per cent of the total water requirement in a short period of 30-35 days after tasselling. A lack of adequate moisture during the grain filling stage adversely affects yield. Even though maize can be grown without additional irrigation in regions receiving about 60 cm of well distributed rainfall, yet for obtaining the optimum yield, additional irrigations become necessary when the rain fails.",
+    "Land_preparation": "A good seedbed for maize should be fine but compact, and free from weeds. It is desirable that the previous crop refuse is buried under with a mouldboard plough. In due course, two or three ploughings with the wooden plough are given. In case the tractor is used, one ploughing followed by a couple of diskings is generally adequate.\nFor kharif cultivation, it is essential that adequate drainage is provided. It may be provided in the form of very shallow surface drains at 40-50 m apart (depending on the slope and the texture of the soil) across the slope and connected to main outlet. Shallow drains do not obstruct the movement of the cattle or tractors during cultivation. Surface drains should be provided during sowing.",
+    "Varieties": {
+      "Endosperm_Types": "Based on the endosperm type, maize varieties may be grouped into dent, flint, floury, waxy, amylose, pop and sweet. In India mostly cream yellow to orange flint early maturing varieties are commonly grown and are put to varied uses, ranging from chapati making, as poor corn, roasted ears, or as green vegetable to starch extraction. Pop corn and sweet varieties are grown only to limited extent. 'Malan White' a dent variety is grown in Kumbalgarh of the Udaipur Division.",
+      "Indigenous_maize_varieties": {
+        "description": "Indigenous maize varieties of northern India show limited variation. With regard to maturity, the maize varieties can be grouped into three categories.",
+        "Maturity_Groups": {
+          "Very_early_maturity": "65-75 days, e.g. Sathi, Kathi and teen Pakhi",
+          "Medium_early_maturing": "subjected to a limited degree of improvement e.g. 'Basi' ,'KT 41','Jaunpur', 'Rudrapur Local'",
+          "Late_maturing": "introductions of contaminated types, e.g.'Malan'. White flint varieties are also grown in certain pockets of Uttar Pradesh and Bihar. Maize varieties cultivated at north eastern high elevations have varied colour mixtures ranging from white, yellow, red to deep purple."
+        }
+      },
+      "High_yielding_hybrids_and_composites_varieties": {
+        "description": "Under the auspices of the All India Co-ordinated Maize Improvement Scheme, eleven high yielding hybrids ('Ganga-1', Ganga-101', 'Ranjit', 'Deccan', 'Ganga-5', Ganga Safed-2', 'hi-Starch', 'Ganga-4', 'Himalayan 123', 'Ganga-3' and 'V.L. 54') and six composites ('Vijay', 'Amber', 'Sona', 'Kisan', Jawahar' and 'Vikram') have been released for cultivation in the various regions of the country. Details of the various hybrids and composite varieties, presently under production, are given in Table below. Seed Corporation, the Tarai Development Corporation and various state agencies which may be contacted for their supply. Hybrids and composites are being sold in sealed bags, each containing enough seed to plant one hectare.",
+        "notes_on_composites": "Unlike hybrids, the farmers using composites can save their seed for the following year. Care should , however be taken that the seed fields have The adequate isolation of 300m, that Seed from at least 500-1000 plants is bulked to represent the populations, and iii. Select the best plants and not the ear.",
+        "notes_on_opaque-2_composites": "Three nutritional and superior opaque-2 maize composites, namely 'Shakti', 'Rattan' and 'Protina', have also been released for general cultivation. These opaque-2 composites are very rich in essential in amino acids, particularly lysin and tryptohan. The genetic make up of these materials necessitates the cultivation of these composites in isolation from normal maize. Any contamination of opaque-2 will be apparent in the form of normal transparent kernels in contrast to the dull marble like appearance of opaque-2. An isolation distance of 300-400 metres is adequate. With the increase in the number of border rows, the isolation distance can be suitably reduced. Even in the absence of isolation, the farmers planting 2-4 hectare can save the seed from the middle of the yield, whereas the rest of the crop can be used as nutritionally superior grain. Opaque-2 maize will be very useful as a human food.",
+        "hybrids": [
+          {
+            "name_of_hybrid": "'Ganga-5'",
+            "grain_type": "Bold, yellow, semi-flint",
+            "salient_features": "A medium maturing (95-110 days), medium statured and widely adapted hybrid. Recommended for the northern Plains and Peninsular India. Resistant to leaf blight and brown strip, downy mildew, stem-border and drought"
+          },
+          {
+            "name_of_hybrid": "'Ganga Safed-2'",
+            "grain_type": "Medium, white, semi-flint",
+            "salient_features": "A widely adapted medium maturing hybrid very popular in white maize growing regions of Uttar Pradesh, Bihar and Rajasthan. It is resistant to foliar diseases and most resistant to bacterial rot."
+          },
+          {
+            "name_of_hybrid": "'Deccan'",
+            "grain_type": "Bold, yellow, semi-flint",
+            "salient_features": "A medium maturing maturing in 105-110 days, recommended for Peninsular India. Excellent husk cover. Highly resistant to leaf blight and downy mildew. This hybrid has widely adaptability."
+          },
+          {
+            "name_of_hybrid": "'Himalayan'",
+            "grain_type": "Bold, white, dent",
+            "salient_features": "A medium maturing widely hybrid. It has a high starch recovery and is preferred by the starch industry. It this very popular in Bihar and Uttar Pradesh, particularly during the Rabi."
+          },
+          {
+            "name_of_hybrid": "'Hi-Starch 123'",
+            "grain_type": "Bold, yellow, semi-flint",
+            "salient_features": "A medium maturing hybrid (105-115 days) recommended for high elevations up to 2000m. This hybrids is very popular for cultivation, at high elevations. Excellent husk cover. Highly resistant of downy mildew, leaf blight and rust. It is susceptible to stalk rots under water logged conditions."
+          },
+          {
+            "name_of_hybrid": "'Ganga-4'",
+            "grain_type": "Bold, white, flint",
+            "salient_features": "A full seasoned hybrid recommended for the white maize growing in the regions in the states of Madhya Pradesh, Bihar and Uttar Pradesh particularly in the Tarai tracts. More resistant to downy mildew and rust. It has been favored for Rabi cultivation in Bihar."
+          }
+        ],
+        "composites": [
+          {
+            "name_of_composite": "'Vijay'",
+            "grain_type": "Medium, yellow, flint to semi-flint",
+            "salient_features": "Medium maturing composite (100-110 days) which has shown wide adaptability to the Indian Sub-continent. Posses considerable resistance to foliar diseases"
+          },
+          {
+            "name_of_composite": "'Kissan'",
+            "grain_type": "Medium, yellow, semi-flint",
+            "salient_features": "Medium maturing composite (105-110 days) marked by resistant downy mildew and leaf blight. Well developed husk cover. It has shown superiority in the Tarai belt of Uttar Pradesh and in north Eastern Himalayan region."
+          },
+          {
+            "name_of_composite": "'Vikram'",
+            "grain_type": "Medium, yellow, orange flint",
+            "salient_features": "Early maturing composites (90-95 days) recommended for the northern plains; shows considerable tolerance to drought and downy mildew."
+          },
+          {
+            "name_of_composite": "'Sona'",
+            "grain_type": "Medium, orange, shiny flint",
+            "salient_features": "Medium maturing composite (100-110 days) recommended for northern plains, considerable resistance to foliar disease."
+          },
+          {
+            "name_of_composite": "'Jawahar'",
+            "grain_type": "Medium, yellow, semi flint with caps",
+            "salient_features": "Recommended for northern plains and peninsular India matures in 100-110 days. Resistant to downy mildew and leaf blight. High resistant to stem border."
+          },
+          {
+            "name_of_composite": "'Amber'",
+            "grain_type": "Yellow, bold, semi flint",
+            "salient_features": "A medium maturing composite (105-110 days) recommended for Peninsular India and the Himalayan belt up to an elevation of 1,700m. Resistant to leaf blight and downy mildew."
+          }
+        ],
+        "nutritionally_superior_opaque-2_composites": [
+          {
+            "name_of_composite": "'Shakti'",
+            "grain_type": "Yellow to light yellow semi flint, with soft dull grains",
+            "salient_features": "A medium maturing Opaque-2 composite, recommended for cultivation in the states."
+          },
+          {
+            "name_of_composite": "'Rattan'",
+            "grain_type": "Yellow to light yellow semi flint, with soft dull grains",
+            "salient_features": "A medium maturing Opaque-2 composite recommended for cultivation in the states of Punjab and Rajasthan."
+          },
+          {
+            "name_of_composite": "'Protina'",
+            "grain_type": "Yellow to light yellow semi flint, with soft dull grains",
+            "salient_features": "A medium maturing Opaque-2 composite recommended for cultivation in Karnataka and the Tarai belt of Uttar Pradesh."
+          }
+        ]
+      }
+    },
+    "Sowing": "There are three distinct seasons for the cultivation of maize: the main season is kharif; whereas its cultivation during Rabi in Peninsular India and Bihar and in spring in northern India is done. Higher yields have been recorded in the Rabi and spring crops. The higher yields are primarily due to better water management and the lower incidence of disease and pests.\nIn most parts of India, maize during kharif is sown with the break of monsoon, the actual dates varying from region to region. It is sown in early March in north eastern hills, in April to early May in north western hills, in May June in Peninsular India, in the end of June to mid July in the Indo Gangetic Plains. The late sowing of maize may extend upto late August in certain irrigated tracts of Punjab. Spring maize is sown in late January to the end of February in Bihar, Andhra Pradesh, Tamil Nadu and Karnataka in the end of October to mid November. Both the spring and the Rabi crops are raised, more or less, under irrigation\nSowing made a week tomten days before the usual break of monsoon, with initial one or two irrigations, provide a better chance for the establishment of plants, and yield increases of 15-20 per cent have also been recorded.\nMaize is sown in rows, 60-75 cm apart, whereas the plants in the row are spaced at 20 to 25 cm. A population of 60-75 thousand plants per hectare at harvest are required for obtaining the optimum yield. Sowing in rows is generally done with drill or by dropping the seed behind the plough. The practice of broading, particularly under rain fed conditions and for fodder maize is still prevalent in several parts of country. Seventeen to 20 kg of seed for the grain crop and 35-40 kg per hectare for the fodder crop is needed.",
+    "Interculture": "During the initial stage, the growth of the maize plants is suppressed by weeds. Weeding may be done between the rows with bullock or tractors drawn implements, whereas the weeding within the row is done by hand. Two or three weedings may be necessary, following which the crop is earthed up to provide for better standability. No intercultivation after flowering should be done, as it is likely to damage the lateral roots. Effective weed control can be obtained by spraying Simazine or Atrazine @ 1-1.25 spraying, the fields should be free from weeds. For the fodder crop of maize, less of weeding is needed, since the soil surface is nearly covered by a dense population of the maize plants.",
+    "Application_of_Manures_and_Fertilizers": "For obtaining high yield, the maize crop should be heavily manured. Twenty five to thirty cartloads of farmyard manure or compost should be ploughed into the soil before the sowing. For hybrid and composite varieties of maize, 100-120 kg of nitrogen, along with 60 kg of P2O5 and 40 kg of K2O per hectare, is recommended. The precise level of application of phosphorus and potash should be modified in the background of soil analysis. One third of the nitrogen and total quantity of potash and phosphorus should be applied before sowing, while the remaining nitrogen should be applied as a side dressing at the Knee high stage and at tasselling in two equal doses. In freshly leveled fields and soils with very light texture, a soil application of 10-20 kg/ha of zinc sulphate before sowing has also given good results. To control soil infesting insects, 10-20 kg of 10% DDT or BHC per hectare may be mixed with the basic fertilizer application. Farmers planting local varieties may apply 40-60 kg of nitrogen to the soil per hectare.",
+    "Irrigation": "In regions with about 60 cm of well distributed rainfall during the growing season, any additional irrigation is not necessary. Inadequate soil moisture during flowering and poet flowering particularly during the grain filling period will markedly reduce the yield. During the grain filling period- the most susceptible stage, additional irrigation if needed, should be applied. The total number of irrigations will depend on the rainfall distribution pattern. The spring and rabi crops are entirely raised under irrigation; the number of irrigations may, however, vary from 5-10 depending type of the soil and the prevailing temperatures.",
+    "Harvesting": "The maize crop sown for grain is harvested when the grains are nearly dry and do not contain more than 20 per cent moisture. The appearance of the plant may be misleading, particularly in the case of high yielding hybrids and composites whose grains are dry, while the stalk and leaves may be still green. Ears are removed from the standing crop. Harvested ears are dried in the sun before shelling. In the case of the late-sown crop, farmers prefer to harvest the whole plants and pile them, and the ears are removed are removed later. Maize stalks are used as cattle feed or fuel. In fact, no part of the maize plant, even the cobs from which the grains have been removed, is left unused.\nMaize grown for fodder should be harvested at the milk to early dough stage; the earlier harvested crop is likely to yield less and have a lower protein content. For silage, however, the late dough is preferred. Both power and hand operated low priced maize shellers are available indigenously. These shellers are considerably more efficient than hand shelling or beating with sticks, the common practice in northern India.\nFarmers using hybrid maize should not save their own seed for their next crop, as the advanced generation hybrid seeds are likely to yield reduction of 25-30 per cent. However, can save seed from composites and open pollinated varieties, when grown in isolation. At least seeds from 500 to 100 ears of the best yielding and normally spaced plants resistant to prevalent diseases and pests should be bulked. Ears should be dried, shelled and treated with an insecticide and the treated seed is necessary, as the untreated seeds on ears are times badly attacked by stored grain pests and the germination is markedly reduced.\nConsiderable variation in grain yield is observed. The yield levels depend upon the variety, the amount of the fertilizer used, and the rainfall pattern etc. Under irrigated conditions and recommended cultural practices, an average yield of 4 tonnes per hectare in the Indo-Gangetic Plains is not uncommon; in peninsular India and at higher elevations, a mean yield of 5-7 tonnes per hectare has frequently been obtained. Under low fertility and rainfed conditions with poor yielding varieties, a grain yield of about on to two tonnes/ha is obtained."
+  }
+]

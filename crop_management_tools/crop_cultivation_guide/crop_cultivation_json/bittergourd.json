@@ -1,0 +1,39 @@
+{
+  "Introduction": "Bitter Gourd is an important vegetable consumed by all people. It possesses both nutritive and medicinal values. It contains more vitamin C, than other vegetables. It also contains minerals like iron, phosphorus and calcium. juice has antacidic property and is also good for heart ailments. Cultivation of is quite profitable.",
+  "Climate and Soil": {
+    "climate": "Basically, it is a crop of sub-tropical climate requiring hot and humid climate, temperature ranging from 250C to 350C. Crop is grown in Kharif and summer seasons where irrigation facilities are available.",
+    "soil": "Light to medium soils with good drainage are suitable. In light soils more organic manures need to be applied."
+  },
+  "Land preparation": "One ploughing upto medium depth (7\"-8\" deep) should be given and 2-3 harrowings should be given to loosen the soil and to mix FYM.",
+  "Varieties": [
+    "Hirakani",
+    "Phule greengold",
+    "Phule Priyanka",
+    "Phule Ujwala",
+    "Coimbatore white long"
+  ],
+  "Sowing": "is a wide spaced Vine crop. It is grown in rings on broad beds. Broad beds are opened at 1.5 m.with 60 cm.furrows, seeds dibbled in rings.",
+  "Manures and fertilizers": "25 tonnes of FYM and 200 kg. Neem cake are applied at the time of land preparation and mixed thoroughly. Top dressing with 200 kg Nitrogen + 50 kg Phosphorus and 50 kg Potash is done. 50 kg Nitrogen + 50 kg Phosphorus + 50 Kg Potash are applied at the time of sowing and remaining Nitrogen in three split doses later on at an interval of 30-35 days",
+  "Interculture": "Two – three weedings. The broad ridges and mended in such a way that vines come on the ridges.",
+  "Irrigation": {
+    "kharif_season": "irrigations are given at an interval of 10-12 days",
+    "summer_season": "5-6 days interval"
+  },
+  "Plant protection": {
+    "pests": [
+      "powdery mildew",
+      "aphids",
+      "fruitfly"
+    ],
+    "control_measures": "For controlling insect attack, wettable sulphur 30 gm + blito x 30 gm + Nuvacron 15 ml or Endosulphan 20 ml + sticker 10 ml in 10 litre of water be sprayed at 10-12 days interval."
+  },
+  "Special": "Stakes or Mandap needs to be provided to trail the vines to encourage vigorous growth and more fruiting and also to facilitate interculturing operation, harvesting, etc.",
+  "Harvesting and Storage": {
+    "start_period": "60 days after sowing",
+    "frequency": "every after 8-10 days",
+    "total_pluckings": "15-16",
+    "time_of_day": "in the morning before 11 a.m.",
+    "yield": "15-18 tonnes/ha"
+  },
+  "Marketing": "Major quantities are marketed in distant markets. Fruits are packed in wooden boxes or bamboo baskets. They are sold through commission, wholesales and retailers to final consumers. s are also exported to Gulf Countries by Exporters."
+}

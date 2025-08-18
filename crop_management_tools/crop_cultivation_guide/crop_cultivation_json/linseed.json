@@ -1,0 +1,56 @@
+{
+  "Introduction": "Linseed (Linum usitatissimum L.). In India, it is grown mainly for seed used for extracting oil. The oil content of the seed varies from 33-47%. Linseed oil is an excellent drying oil used in manufacturing paints and varnishes, oilcloth, waterproof fabrics and linoleum and as an edible oil in some areas. Linseed-cake is a very good manure and animal feed. Linseed is used in making paper and plastics.",
+  "Requirement": {
+    "Climate": "Its cultivation is confined to low elevations, but it cane be successfully grown up to 770 metres. Areas with the annual rainfall ranging from 45-75cm are best suited for its cultivation. The seed crop does well under moderate cold, but the fibre crop grows best in cool moist climates.",
+    "Soil": "It does best on clay loams, deep clayey black soils. It does well on the deep clayey black soils of central and peninsular India and on the alluvium loams of the Indo-Gangetic plains except The sandy and badly drained heavy clays,"
+  },
+  "Varieties": [
+    "K-2",
+    "T-397",
+    "No.55",
+    "NP (RR) 9",
+    "S-48",
+    "Jawahar-17",
+    "Jawahar-7 (R-7)",
+    "M-10",
+    "Nayurbhanj",
+    "LC 185",
+    "Hira",
+    "Mukta",
+    "Neelum",
+    "B-67",
+    "B.S.44"
+  ],
+  "Cultivation": "Fields of linseed are prepared as for other crops. A fine weed-free seed-bed is prepared for sowing. Aldrin or Chlordane 5% dust at the rate of 25-30kg per ha is mixed within soil during the last ploughing before sowing to protect the seedlings against white-ants and the early damage from cutworms.",
+  "Sowing": {
+    "Season": "October to November",
+    "Method": "The crop is sown either broadcast or is drilled in lines 20 to 30cm apart.",
+    "SeedRate": {
+      "Broadcast": "40kg per ha",
+      "LineSowing": "20-30kg per ha, depending upon the seed size"
+    }
+  },
+  "Fertilizer": {
+    "RainfedConditions": "The fertilizer dose including 30kg of nitrogen (N) and 15 kg of phosphorus (P) per ha is given. The deep placement of fertilizer at sowing in the case of the rainfed crop gives better results.",
+    "IrrigatedConditions": "Under irrigated conditions, the linseed crop requires 60kg of N and 30kg of P per ha. Nitrogen is applied in two splits-half the dose as basal and the other half at the first irrigation, 40-50 days after sowing.",
+    "Interculture": "The rainfed crop generally requires no interculture. When the crop is irrigated, one weeding becomes essential."
+  },
+  "Pests and diseases": {
+    "Linseed gall midge": {
+      "Description": "Wide spread and serious pest of linseed.",
+      "Control": "The growing of early varieties and mixed cropping are reported to reduce the incidence of the pest."
+    },
+    "Linseed rust and wilt": {
+      "Description": "Linseed rust and wilt are the most serious diseases.",
+      "Control": "To control growing of resistant varieties are recommended."
+    }
+  },
+  "Harvesting and yield": {
+    "HarvestingTime": "The linseed crop starts, maturing by the middle of February, depending on winter spread and sowing time.",
+    "Method": "Harvesting is done when the crop is dead ripe with a sickle or by uprooting the plants. When the fibre is also desired along with seed, the harvesting of the crop is done at the stage of capsule maturity even when the crop is light green.",
+    "Yield": {
+      "Rainfed": "210 to 450 kg per ha",
+      "Irrigated": "1,200-1,500 kg per ha"
+    }
+  }
+}

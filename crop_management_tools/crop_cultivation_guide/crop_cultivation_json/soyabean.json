@@ -1,0 +1,83 @@
+{
+  "Ecological Requirements": {
+    "Climate": {
+      "Temperature": {
+        "germination": "15 to 320C",
+        "rapid_growth": "higher temperature"
+      },
+      "Annual Rainfall": "60-65 cm",
+      "Critical_Factors": "drought at flowering or just before flowering results in flower and pod drops, while rains during maturity impairs the grain quality of soyabean."
+    },
+    "Soil": {
+      "Best_Type": "sandy loam having good organic matter content"
+    }
+  },
+  "Varieties": [
+    "Monetta",
+    "M.A.C.S.-13",
+    "M.A.C.S.-57",
+    "M.A.C.S.-58",
+    "M.A.C.S-124",
+    "P.K. 472",
+    "J.S.-80-21",
+    "J.S. 335"
+  ],
+  "Sowing": {
+    "Cropping_Seasons": {
+      "Kharif": "onset of monsoon or last week of June to first week of Jully",
+      "Spring": "between 15th of February and 15th of March"
+    },
+    "Method of sowing": "Line sowing by seed drill followed as it needs less seeds/ha, weeding and hoeing may be done conveniently",
+    "Seed treatment": "Seeds are treated with rhizobium culture.",
+    "Spacing": {
+      "Kharif": "45-60 cm X 2.5 cm",
+      "Spring": "30-45 X 2.5 cm"
+    },
+    "Seedling depth": {
+      "heavy_soils": "2-3 cm",
+      "light_soils": "3-4 cm"
+    },
+    "Seed rate": {
+      "Grain_Purpose": "20-30 kg seed/ha",
+      "Fodder_Crop": {
+        "Kharif_season": "70-75 kg/ha",
+        "Spring_season": "100-120 kg/ha"
+      }
+    }
+  },
+  "Fertilizers": {
+    "Nitrogen_Note": "Soyabean gives higher positive response to applied nitrogen over symbiotically fixed atmospheric nitrogen through its roots alone which proves that nitrogen fixed by soyabean roots is not enough for its and development. Crop is supplied with 10-15% of total nitrogen requirement",
+    "Application": [
+      "25-30 C.L.FYM at the time of sowing proved better results.",
+      "50 Kg N + 100 Kg P2O5, 20 kg sulphur per ha.",
+      "25 Kg Zinc sulphate and 10 Kg Borax should be applied."
+    ]
+  },
+  "Water requirement": {
+    "Kharif_crop": "In case of Kharif crop irrigation is not needed and it is grown rainfed.",
+    "Summer_crop": "However during summer the crop can be grown only under assured irrigation and it needs about 5-6 irrigations.",
+    "Critical_growth_stages": [
+      "Sprouting stage",
+      "Flowering pod initiation and bean filling stages are important from yield point of view"
+    ]
+  },
+  "Cultivation Practices": "At the time of sowing one deep ploughing two harrowings should be given tomaintain optimum moisture at sowing.",
+  "After care": {
+    "Weeding": "Keep plot weed free upto 40 days by one or two hoeings, two weedings upto 40 days.",
+    "Herbicides": "Herbicides such as Toke 25, 1.5 to 2 Kg/ha pre-emergence before sowing controls the weeds."
+  },
+  "Crop Rotation and inter cropping": {
+    "Mixed_cropping": "Mixed with maize, sesamum etc.",
+    "Inter_cropping": "Inter cropping with Tur, Cotton, drilled paddy sorghum, cotton, sugarcane.",
+    "Rotation": "It can be rotated with wheat, potato, gram, tobacco"
+  },
+  "Harvesting": {
+    "Method": "Crop harvested at proper stage by usual method, threshing machine.",
+    "Signs_of_maturity": [
+      "Dropping of leaves",
+      "leaves turn yellow",
+      "moisture content of seed 15%"
+    ]
+  },
+  "Yield": "Average yield 25g/ha"
+}

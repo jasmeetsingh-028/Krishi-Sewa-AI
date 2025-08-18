@@ -1,0 +1,213 @@
+{
+  "Introduction": {
+    "Origin": "Controversial, with some believing it originated in India and others in Africa (upper Nile regions and coastal districts of Angola).",
+    "Spread": "From Africa to other parts of the world including India.",
+    "GlobalCultivation": [
+      "Africa",
+      "America",
+      "Australia",
+      "Hawaii",
+      "Ceylon",
+      "Netherlands",
+      "Malaya",
+      "East and West Indies",
+      "India",
+      "Indo-China",
+      "Pakistan"
+    ],
+    "IndianCultivation": "Grown in states like U.P, M.P, Maharashtra, Bihar, Andhra Pradesh, Punjab, Haryana, West Bengal, Assam, Orissa, Rajasthan, H.P., Gujarat, Jammu and Kashmir, Karnataka, Tamil Nadu, Kerala, with the major area in north Indian states.",
+    "PlantCharacteristics": {
+      "GrowthHabit": "Arhar is grown as an annual, while tur varieties grow like perennial plants.",
+      "Description": "Bushy, densely branched plants with a height of about 150 cm to 300 cm.",
+      "RootSystem": "Tap root with well-developed lateral or secondary roots containing nodules.",
+      "Stem": "Strong, woody, round, slightly ridged during active growth, with numerous branches.",
+      "Leaves": "Pinnately compound and trifoliate with oblong, lanceolate leaflets.",
+      "Flowers": "Arranged in a recemose order, opening in the evening and remaining open until noon the next day.",
+      "PollinationAndPods": "Structure of flower, nature of pollination, pod setting and characters are similar to other papilionaceous plants."
+    },
+    "CultivatedTypes": {
+      "Cajanus cajan var.bicolor": {
+        "Maturity": "Late maturing.",
+        "PlantDescription": "Very tall, freely branched with flowers at the end of the branches.",
+        "Pods": "Relatively longer, containing 4 to 5 seeds."
+      },
+      "Cajanus cajan var.flavus": {
+        "Maturity": "Shorter duration, early maturing.",
+        "PlantDescription": "Shorter, bushy plants with flowers at several points along the branches.",
+        "Pods": "Shorter, bearing two to three seeds."
+      }
+    }
+  },
+  "Climatic and Soil Requirements": {
+    "Climate": {
+      "Germination": "Moist and warm weather (30-35°C).",
+      "VegetativeGrowth": "Slightly lower temperature (20-25°C).",
+      "FloweringAndPodSetting": "About 15-18°C.",
+      "Maturity": "Higher temperature around 35-40°C.",
+      "HarmfulConditions": "Water logging, heavy rains, frost, hailstorm or rain at maturity."
+    },
+    "Soil": {
+      "Type": "Can be grown on any type of soil, but sandy loam to clayey loam soils are best.",
+      "Characteristics": "Must be very deep, well-drained, and free from soluble salts."
+    }
+  },
+  "Land preparation": {
+    "Method": "Prepared as for most kharif legumes.",
+    "Requirements": "Field should be free from bigger clods, established weeds, and leftover stubbles of the previous crop.",
+    "Levelling": "The field should be thoroughly levelled to prevent water accumulation."
+  },
+  "Varieties": [
+    {
+      "S.No.": 1,
+      "Name": "C-11",
+      "Duration days": "185-190",
+      "Yield q/ha": "16-18",
+      "Characteristics": "Grains red brown, Tolerant to wilt, Good for Vidarbha and Marathwada"
+    },
+    {
+      "S.No.": 2,
+      "Name": "BDN-1",
+      "Duration days": "155-165",
+      "Yield q/ha": "16-18",
+      "Characteristics": "Grains red-bold, Resistant to wilt, Suitable for intercropping"
+    },
+    {
+      "S.No.": 3,
+      "Name": "BDN-2",
+      "Duration days": "155-165",
+      "Yield q/ha": "16-18",
+      "Characteristics": "Grains white, medium. Resistant to wilt and suitable for intercropping (Maharashtra, M.P., Gujarat)"
+    },
+    {
+      "S.No.": 4,
+      "Name": "T.Vishakha-1",
+      "Duration days": "135-140",
+      "Yield q/ha": "15-16",
+      "Characteristics": "Grains red brown, Tolerant to wilt, Good for Vidarbha & Marathwada"
+    },
+    {
+      "S.No.": 5,
+      "Name": "TAT-10",
+      "Duration days": "115-120",
+      "Yield q/ha": "12-13",
+      "Characteristics": "Very early, suitable for dry area, grains red, medium size, suitable for Vidarbha"
+    },
+    {
+      "S.No.": 6,
+      "Name": "ICPL-87(Pragati)",
+      "Duration days": "120-125",
+      "Yield q/ha": "15-16",
+      "Characteristics": "Very early, suitable for ratooning, grains red, medium size (Maharashtra)"
+    },
+    {
+      "S.No.": 7,
+      "Name": "ICPL-151(Jagriti)",
+      "Duration days": "115-120",
+      "Yield q/ha": "20-25",
+      "Characteristics": "Very early, white grains medium size (Maharashtra)"
+    },
+    {
+      "S.No.": 8,
+      "Name": "ICPH-8",
+      "Duration days": "115-135",
+      "Yield q/ha": "15-16",
+      "Characteristics": "Hybrid variety, grains red, medium size, (Maharashtra, M.P, & Gujarat)"
+    },
+    {
+      "S.No.": 9,
+      "Name": "BSMR-175",
+      "Duration days": "170-175",
+      "Yield q/ha": "12-14",
+      "Characteristics": "Resistant to wilt, grains white (Marathwada)"
+    },
+    {
+      "S.No.": 10,
+      "Name": "BSMR-736",
+      "Duration days": "185-190",
+      "Yield q/ha": "15-16",
+      "Characteristics": "Resistant to wilt, grains red and bold (Maharashtra)"
+    },
+    {
+      "S.No.": 11,
+      "Name": "IPCL-87119(Asha)",
+      "Duration days": "170-200",
+      "Yield q/ha": "15-16",
+      "Characteristics": "Grains red and bold (Maharashtra)"
+    },
+    {
+      "S.No.": 12,
+      "Name": "AKT-8811",
+      "Duration days": "140-150",
+      "Yield q/ha": "15-16",
+      "Characteristics": "Early, suitable for ratooning (Central & South India)"
+    },
+    {
+      "S.No.": 13,
+      "Name": "Marutic(ICP - 8863)",
+      "Duration days": "170-180",
+      "Yield q/ha": "15-16",
+      "Characteristics": "Resistant to wilt, suitable for intercropping (Maharashtra)"
+    }
+  ],
+  "Sowing": {
+    "SeedSelection": "Treated seeds of a suitable variety with high germination and high real value.",
+    "SowingTime": {
+      "Irrigated": "With one pre-monsoon irrigation at least a fortnight earlier than the first shower.",
+      "Rainfed": "Immediately after rains have started.",
+      "Deadline": "No later than the last week of June.",
+      "DiaraLands": "By mid-September."
+    },
+    "SowingMethod": {
+      "Technique": "Line sowing by seed drill or malabasa is better than broadcasting.",
+      "Depth": "7-10 cm.",
+      "Spacing": {
+        "RowToRow": "60-75 cm",
+        "PlantToPlant": "15-20 cm"
+      }
+    },
+    "SeedRate": "10-15 kg of high quality seed per hectare, depending on variety and sowing time."
+  },
+  "Manures and Fertilizers": {
+    "General": "The crop is a heavy feeder but due to symbiotic bacteria, most of the required nitrogen is fixed from the atmosphere. It needs heavy doses of phosphate.",
+    "InoculationEffect": "Plants from inoculated seeds are well nodulated, have high nitrogen-fixing capacity, and need less nitrogen.",
+    "ApplicationRatePerHectare": {
+      "Nitrogen": "25-30 kg",
+      "P2O5": "50-75 kg",
+      "K2O": "30 kg (if soil is poor in K)",
+      "ZnSO4": "10-15 kg"
+    },
+    "ApplicationMethod": "The entire dose should be basal placed at a depth of 12 to 15 cm or 7 to 10 cm below the seed layer in the same row."
+  },
+  "Interculture": {
+    "WeedProblem": "Crop plants grow slowly during the first 45-50 days, suffering from severe weed infestation.",
+    "ManualWeeding": "Two hand weedings: one about 25-30 days after sowing, and another about 45-50 days after sowing.",
+    "ChemicalWeeding": {
+      "Pre-emergence": "Lasso (Alachlor) at the rate of 3.0 kg/ha.",
+      "Pre-sown": "Basaline at the rate of 1.0 litre/ha as pre-sown incorporation in soil."
+    }
+  },
+  "Irrigation": {
+    "General": "The crop is mostly grown rainfed.",
+    "Recommended": "One light irrigation between flowering and pod filling stage increases seed yield.",
+    "Protective": "In the event of drought or aberrant weather conditions, the crop needs life-saving or protective irrigation."
+  },
+  "Plant protection measures": {
+    "Diseases": {
+      "CommonDiseases": "Wilt, stem rot, and sterility mosaic.",
+      "WiltAndStemRotControl": "Use resistant varieties, provide well-drained soil conditions, and adopt a nice crop rotation.",
+      "SterilityMosaicControl": "Use a resistant variety and apply three to four sprayings of Metasystox 0.1% solution when the Eriophyid mite attack starts."
+    },
+    "Insects and pests": {
+      "CommonPests": "Pod borers, tur pod fly, plume moth, hairy caterpillar, leaf hopper, bean fly.",
+      "MajorPest": "Pod borers cause considerable loss.",
+      "Control": "Spray 0.2 to 0.3 percent solution of Endosulfan 35 EC or Nuvacrone 40 EC. Repeat spraying if needed, possibly with a higher concentration of 0.4 or 0.5 percent."
+    }
+  },
+  "Harvesting and Yield": {
+    "YieldPerHectare": {
+      "Grains": "25-30 quintals",
+      "Sticks": "50 to 60 quintals",
+      "DriedLeaves_Bhusa": "10 quintals"
+    }
+  }
+}

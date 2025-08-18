@@ -1,0 +1,42 @@
+{
+  "Introduction": "Ginger is an important spice and used in different forms such as raw ginger, dry ginger, bleached dry ginger, ginger powder oleoresin, ginger beer, ginger candy, ginger wine etc. Kerala is the major ginger growing state. Other major ginger growing states are Orissa, Meghalaya, Himachal Pradesh and Karnataka. Ginger grows in warm and humid climate.",
+  "Requirement": {
+    "Climate": "Ginger can be grown both under rainfed and irrigated conditions. A moderate rainfall at the sowing time till the rhizomes sprout, fairly heavy and well distributed showers during the growing period and dry weather for about a month before harvesting are necessary.",
+    "Soil": "Ginger thrives the best in well drained soils like sandy or clay loam, red loam, or lateritic loam. A friable loam rich in humus is ideal. It may not be desirable to grow ginger in the same site year after year.",
+    "Preparation of land planting": "The land is to be ploughed 4-5 times or dug thoroughly to bring the soil to fine tilth. Weeds, stubbles, roots etc removed. Beds of about one meter width, 15cm height and of any convenient length are prepared at an inter-space of 50cm in between beds. In case of irrigated crops, ridges are formed 40cm apart."
+  },
+  "Varieties": "They are generally named after the localities or places where they are grown. Common cultivars are Maran, Assam and Rio-de-Janeiro, Suprabha, Suruchi, Suravi, Himagiri, China, Himachal, Nadia, HSR-Varada.",
+  "Season": "The best time for planting ginger in West Coast of India is during the first fortnight of May with the receipt of pre-monsoon showers. Under irrigated conditions, it can be planted well in advance during the middle of February or early March.",
+  "Propagation": "Ginger is always propagated by rhizomes. Carefully preserved seeds rhizomes are cut into small pieces of 2.5-5cm length weighing 20-25g each having one or two good buds. The seed rate varies from region to region and with the method of cultivation adopted. The seed rhizomes are treated with 0.3% Dithane M-45 (3g in one litre of water) for 30 min, drained and planted at a spacing of 20-25cm along the rows and 20-25cm between the rows.",
+  "Manuring": "At the time of planting, well decomposed and dried cattle manure or compost at the rate of 25-30 tonnes per hectare is to be applied. It may be applied prior to planting or applied in planting pits at the time of planting. Application of neem cake at 2 tonnes per hectare at the time of planting helps in reducing the incidence of rhizome rot of ginger. In case of fertilizer 25bags per hectare 7:10:5 (bone meal) applied before planting. And 2-2.5 months after planting 5 bags per hectare of Diammonium Phosphate (DAP) should be applied by mixing in the soil and also 2.5 bags urea per hectare.",
+  "Intercultural operations": {
+    "Mulching": "Mulching the ginger beds with green leaves is essential to enhance germination and to prevent washing off soil due to heavy rain.",
+    "Weeding": "Weeding is done just before fertilizer application and mulching. Two or three weedings are required depending on the intensity of weed growth.",
+    "Crop rotation and mixed cropping": "Ginger is commonly rotated with other crops. The crops most commonly rotated with ginger are tapioca, chillies, dry paddy in rainfed areas and ragi, groundnut, maize and vegetables, red gram and castor."
+  },
+  "Plant Protection": {
+    "Insect pest": {
+      "Shoot borer": {
+        "description": "The presence or bore hole on the pseudo stems through which the frass is extruded and the withered central shoot are the symptoms of pest infestation.",
+        "Control": "Spraying of Malathion 0.1% during July-October at monthly intervals is effective against the pest."
+      },
+      "Leaf roller": {
+        "description": "The larvae of the leaf roller cut and fold the leaves and remain within and feed on them.",
+        "Control": "In severe infestation, spraying with carbaryl 10-1% or dimethoate 0.05% may be undertaken."
+      }
+    },
+    "Diseases": {
+      "Soft rot or rhizome rot": {
+        "description": "The disease is soil borne and the fungus multiplies with build up of soil moisture with the onset of south-west monsoon. The collar region of affected pseudostem becomes water soaked and rotting spreads to the rhizome resulting in typical soft rot.",
+        "Control": "Treat the seed rhizomes with 0.3% Dithane M-45 for 30 min. Drench the beds with Dithane M-45 (0.3%) or Captofol (0.3%)."
+      },
+      "Bacterial wilt": {
+        "description": "This is also a soil and seed borne disease. Water soaked spots appear at the collar region of the pseudostem and progress upwards and downwards. The affected pseudostem or the rhizome when pressed gently exudes milky ooze from the vascular strands.",
+        "Control": "Seed rhizomes may be treated with 200 ppm Streptocycline for 30 minuted and shade dried before planting. A uniform drenching be given to all beds with 1% bordeaux mixture or 0.2% copper oxycchloride."
+      }
+    }
+  },
+  "Harvesting and curing": "The crop is ready for harvest in about eight month's time when the leaves turn yellow, and start drying up gradually. The clumps are lifted carefully with a spade or digging fork, and the rhizomes are separated from the dried up leaves, roots and adhering soft. For making vegetables ginger, harvesting is done from 16 months onwards. The rhizomes are thoroughly washed in water twice or thrice and sun-dried for a day. The average yield of fresh ginger per hectare varies with varieties ranging 15-25 tonnes.",
+  "Preservation of seed rhizomes": "For seed materials, big and healthy rhizomes from disease free plants are selected immediately after the harvest. For this purpose, healthy and disease-free clumps are marked in the field when the crop is 6-8months old and still green. The seed rhizomes are treated with a solution containing 0.1% quinalphos and 0.3% Dithane-M-45 for 30 min. Drain the solution and dry the rhizomes under shade. The seed rhizomes are stored in pits of convenient size in sheds.",
+  "Dry ginger": "For dry ginger the produce is kept soaked in water overnight. The rhizomes are then rubbed well to clean them. The rhizomes are removed from the water and the outer skin is removed with bamboo splinters. The peeled rhizomes are washed and dried in sun uniformly for one week. To get good appearance, peeled rhizomes are soaked in 2% lime water for 6 hours and dried thereafter. The yield of dry ginger is 16-25% of the fresh ginger depending on the variety."
+}

@@ -4,7 +4,18 @@ uvicorn[standard]
 
 # LangChain & LangGraph
 langgraph
+# Web framework
+fastapi[standard]
+uvicorn[standard]
+
+# LangChain & LangGraph
+langgraph
 langgraph-supervisor
+langchain
+langchain-community
+langchain-huggingface
+langchain-google-genai
+langchain-openai
 langchain
 langchain-community
 langchain-huggingface
@@ -23,8 +34,30 @@ requests
 python-dotenv
 pydantic
 colorama
+langchain-text-splitters
+
+# LLM utilities
+litellm
+docling
+
+# Data & utilities
+pandas
+requests
+python-dotenv
+pydantic
+colorama
 typing
 typing_extensions
+
+# Requests + weather
+openmeteo-requests
+requests-cache
+retry-requests
+
+# NLP models
+sentence-transformers
+
+# Document parsing
 
 # Requests + weather
 openmeteo-requests

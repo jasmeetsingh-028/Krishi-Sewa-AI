@@ -3,31 +3,27 @@ import uuid
 import httpx
 import json
 import calendar
-from datetime import  datetime
-from fastapi import FastAPI
-from pydantic import BaseModel
+from datetime import datetime
+from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel, Field
+from typing import Optional
 from langgraph_supervisor import create_supervisor
 from langgraph.prebuilt import create_react_agent
 from langchain.chat_models import init_chat_model
 from langgraph.checkpoint.memory import InMemorySaver
 from dotenv import load_dotenv
-from pydantic import BaseModel, Field
 from langchain_tavily import TavilySearch
 
 # ---------- Import Required Tools ----------
-from crop_management_tools.crop_calendar.crop_calendar_tool import get_crop_calendar
-#from crop_management_tools.crop_cultivation_guide.retriever_tool import retrieve_crop_cultivation_info
+from crop_management_tools.crop_calendar.crop_calendar_tool import get_crop_calendar, get_crops_by_month
 from crop_management_tools.crop_cultivation_guide.crop_cultivation_tools import *
 from open_meteo_weather_tool.weather_tool import get_weather, query_weather_variables
-from crop_management_tools.crop_calendar.crop_calendar_tool import get_crop_calendar, get_crops_by_month
 from crop_price_tool.commodity_daily_price_tool import get_crop_price_tool
 
 load_dotenv()
 
-
-
 ###-------------- datetime information for the agent --------------
-
 def get_date_time_info():
     now = datetime.now()
     day_name = calendar.day_name[now.weekday()]
@@ -49,31 +45,33 @@ date_time_info = get_date_time_info()
 # ---------- Create FastAPI app ----------
 app = FastAPI(title="Krishi Sewa AI")
 
-# ---------- Create the LLM ----------
-## Create the LLM
-llm = init_chat_model(model = "gpt-4o")
-
-# --------- Initialize tavily search -----------
-
-## Tavily search for governance-related schemes and policies
-
-tavily_search_tool = TavilySearch(
-    max_results=3,              
-    topic="general",         
-    include_answer=True,        #Include a concise answer/excerpt
-    include_raw_content=True,   #Include full content if needed for summarization
-    include_images=False,       #Policies rarely need images
-    search_depth="basic",       #Basic search is usually sufficient
-    time_range="year"           #Prefer results from the past year for up-to-date schemes
+# ✅ ADD CORS MIDDLEWARE IMMEDIATELY AFTER CREATING APP
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000", "http://localhost:3001"],
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allow_headers=["*"],
 )
 
+# ---------- Create the LLM ----------
+llm = init_chat_model(model="gpt-4o")
+
+# --------- Initialize tavily search -----------
+tavily_search_tool = TavilySearch(
+    max_results=3,
+    topic="general",
+    include_answer=True,
+    include_raw_content=True,
+    include_images=False,
+    search_depth="basic",
+    time_range="year"
+)
 
 # ---------- User Location --------------
-
 class Coords(BaseModel):
     lat: float = Field(..., ge=-90, le=90)
     lon: float = Field(..., ge=-180, le=180)
-
 
 async def reverse_geocode(lat: float, lon: float):
     url = "https://nominatim.openstreetmap.org/reverse"
@@ -92,17 +90,10 @@ async def reverse_geocode(lat: float, lon: float):
 @app.post("/init")
 async def initialize_user(coords: Coords):
     try:
-        # weather = fetch_weather_from_api(coords.lat, coords.lon)
-
-        # os.makedirs(".cache", exist_ok=True)
-        # cache_path = os.path.join(".cache", "user_weather.json")
-        # with open(cache_path, "w") as f:
-        #     json.dump(weather, f, indent=2)
-
         location_info = await reverse_geocode(coords.lat, coords.lon)
         address = location_info.get("address", {})
 
-        # Build user info (no weather here)
+        # Build user info
         user_info = {
             "coords": {"lat": coords.lat, "lon": coords.lon},
             "location": {
@@ -126,74 +117,38 @@ async def initialize_user(coords: Coords):
 
     except Exception as e:
         return {"status": "error", "details": str(e)}
-    
-
-
-# useEffect(() => {
-#   async function initUser() {
-#     const coords = await getLocationSmart();
-#     if (coords) {
-#       await fetch("http://127.0.0.1:8000/init", {
-#         method: "POST",
-#         headers: { "Content-Type": "application/json" },
-#         body: JSON.stringify(coords),
-#       });
-#       console.log("✅ User weather initialized in backend cache");
-#     }
-#   }
-
-#   initUser();
-# }, []);
-
 
 # ------------------ Create Sub Agents ------------------------
-
 def create_weather_agent():
     return create_react_agent(
-    model=llm,
-    tools=[get_weather, query_weather_variables],  
-    name="weather_expert",
-    prompt="""
-    You are a weather forecasting expert specialized in agricultural insights.
+        model=llm,
+        tools=[get_weather, query_weather_variables],
+        name="weather_expert",
+        prompt="""
+        You are a weather forecasting expert specialized in agricultural insights.
 
-    You have access to two tools:
-    IMP: USE EACH TOOL ONLY ONCE!
+        You have access to two tools:
+        IMP: USE EACH TOOL ONLY ONCE!
 
-    1. `get_weather(city_name: str)`
-       - Takes the name of an Indian city as input.
-       - Fetches important weather variables from the local `.cache` (if available and fresh),
-         or calls the Open-Meteo API to retrieve new data, then stores it in `.cache`.
-       - Provides **3-hourly weather forecasts for the next 3 days**, tailored for agricultural needs. 
-       - Variables include:
-           - temperature_2m (°C): Air temperature at 2m above ground
-           - relative_humidity_2m (%): Humidity at 2m above ground
-           - evapotranspiration (mm): Combined water loss from soil + plants
-           - soil_temperature_0cm, 6cm, 18cm (°C): Soil temperatures at different depths
-           - precipitation (mm), precipitation_probability (%): Rainfall and chance of rain
-           - soil_moisture_0_to_1cm, 1_to_3cm, 3_to_9cm, 9_to_27cm (m³/m³): Soil moisture profiles
-           - wind_speed_10m (m/s): Wind speed at 10m above ground
+        1. `get_weather(city_name: str)`
+           - Takes the name of an Indian city as input.
+           - Fetches important weather variables from the local `.cache` (if available and fresh),
+             or calls the Open-Meteo API to retrieve new data, then stores it in `.cache`.
+           - Provides **3-hourly weather forecasts for the next 3 days**, tailored for agricultural needs.
+           - Variables include: temperature, humidity, soil temperature, precipitation, soil moisture, wind speed.
 
-    2. `query_weather_variables(city_name: str, variable: str)`
-       - Fetches a **single weather variable with timestamps** for a given city.
-       - Useful when the user only asks about one factor (e.g., "soil moisture" or "rainfall").
-       - Supported variables:
-           - temperature_2m (°C): Crop growth, pest activity, heat stress
-           - relative_humidity_2m (%): Disease risk, transpiration
-           - evapotranspiration (mm): Irrigation scheduling
-           - soil_temperature_0cm, 6cm, 18cm (°C): Seed germination, root growth, moisture retention
-           - precipitation (mm), precipitation_probability (%): Irrigation planning, harvest timing
-           - soil_moisture_0_to_1cm, 1_to_3cm, 3_to_9cm, 9_to_27cm (m³/m³): Soil water availability
-           - wind_speed_10m (m/s): Pollination, lodging risk, pesticide drift
+        2. `query_weather_variables(city_name: str, variable: str)`
+           - Fetches a **single weather variable with timestamps** for a given city.
+           - Useful when the user only asks about one factor.
 
-    Guidelines:
-    - Always use these tools to get data (from cache or API) instead of guessing.
-    - Use `get_weather` when the user wants the **full forecast**.
-    - Use `query_weather_variables` when the user wants **only one specific variable**.
-    - Summarize results in a farmer-friendly format (avoid raw JSON).
-    - Highlight key insights: rain chances, irrigation needs, soil moisture, and extreme conditions.
-    - If the city name is missing or unclear, politely ask the user to clarify before fetching data.
-    """
-)
+        Guidelines:
+        - Always use these tools to get data instead of guessing.
+        - Use `get_weather` when the user wants the **full forecast**.
+        - Use `query_weather_variables` when the user wants **only one specific variable**.
+        - Summarize results in a farmer-friendly format.
+        - If the city name is missing or unclear, politely ask the user to clarify before fetching data.
+        """
+    )
 
 def create_crop_cultivation_agent():
     return create_react_agent(
@@ -211,7 +166,7 @@ def create_crop_cultivation_agent():
                 - Returns filename or None.
 
                 2. `get_keys(filename: str) -> list`
-                - Gets all available section keys for a crop’s guide.
+                - Gets all available section keys for a crop's guide.
 
                 3. `get_context(filename: str, key: str) -> str`
                 - Extracts detailed content under the given section key.
@@ -228,7 +183,7 @@ def create_crop_cultivation_agent():
                 - Output includes stage-wise crops for that month.
 
         Guidelines:
-        - First, understand the user’s query.
+        - First, understand the user's query.
         - If the user asks about general crop cultivation (e.g., "How to grow rice?"), use `search_filename → get_keys → get_context`.
         - If the user asks about crop timelines or stages (e.g., "When is wheat planted?" or "Which crops are sown in July?"):
             * Use `get_crop_calendar` when the query mentions a specific crop.
@@ -256,7 +211,6 @@ def create_policy_agent():
         """
     )
 
-
 def create_crop_price_agent():
     return create_react_agent(
         model=llm,
@@ -276,10 +230,13 @@ def create_crop_price_agent():
         """
     )
 
-
-
-with open(".user_info/user_info.json", "r") as f:
-    user_location_info = str(json.load(f))
+# ✅ FIXED: Handle missing user_info.json file gracefully
+user_location_info = "No location info available"
+try:
+    with open(".user_info/user_info.json", "r") as f:
+        user_location_info = str(json.load(f))
+except FileNotFoundError:
+    print("No user location info found. User should call /init endpoint first.")
 
 checkpointer = InMemorySaver()
 config = {"configurable": {"thread_id": uuid.uuid4().hex}}
@@ -292,131 +249,100 @@ crop_price_agent = create_crop_price_agent()
 print(str(date_time_info))
 
 ##--------------------------- create super-visor workflow ---------------------------
-
 workflow = create_supervisor(
-        [weather_agent, crop_agent, policy_agent, crop_price_agent],
-        model=llm,
-        checkpointer=checkpointer,
-        prompt=f"""
-    You are a team supervisor managing three expert agents:
+    [weather_agent, crop_agent, policy_agent, crop_price_agent],
+    model=llm,
+    checkpointer=checkpointer,
+    prompt=f"""
+    You are a team supervisor managing four expert agents:
 
     ## User location Info:
     {user_location_info}
 
     ## Current Date & Time Info:
-    {str(date_time_info)}  
-
-    You are a team supervisor managing three expert agents:
-
+    {str(date_time_info)}
 
     (Use this when the user asks about "time", "today," "this month," "current_time," "current season," etc. Always resolve relative terms into actual dates/months before passing to agents.)
 
+    1. Weather Agent
+    - Specializes in providing location-based weather forecasts and atmospheric data.
+    - Useful when the user asks about current conditions, upcoming forecasts, temperature, rainfall, or other weather-related insights.
+    - Can return detailed hourly forecasts, so make sure to clarify the time range if needed.
 
-    1. Weather Agent  
-    - Specializes in providing location-based weather forecasts and atmospheric data.  
-    - Useful when the user asks about current conditions, upcoming forecasts, temperature, rainfall, or other weather-related insights.  
-    - Can return detailed hourly forecasts, so make sure to clarify the time range if needed.  
+    2. Crop Agent
+    - Specializes in answering questions about crop cultivation practices and crop calendars in India.
+    - Uses structured JSON guides stored in the system for each crop, along with crop calendar tools.
 
-    2. Crop Agent  
-    - Specializes in answering questions about crop cultivation practices and crop calendars in India.  
-    - Uses structured JSON guides stored in the system for each crop, along with crop calendar tools.  
-    - Has access to the following tools:
-        1. Uses these tools to find and retrieve information about crop cultivation:
+    3. Policy Agent
+    - Specializes in providing accurate, up-to-date information about government agricultural policies and schemes.
+    - Uses the Tavily Search tool to fetch official sources and present actionable insights.
 
-        * `search_filename(crop_name: str)` → Finds the JSON file for a given crop.
-            - Sometimes the crop name given by the user might be in a different language than the system language; check for translations.  
-        * `get_keys(filename: str)` → Retrieves all available section keys from that crop’s guide.  
-        * `get_context(filename: str, key: str)` → Extracts the detailed content under a given section.  
+    4. Crop Price Agent
+    - Specializes in providing mandi prices for crops across India.
+    - If the location is not provided by the user then use User location (user city or user state) Info to fetch mandi prices.
+    - Uses the Crop Price Tool to fetch prices from government data sources.
 
-        2. use the following tools to get crop calendar information: (eg: what crops can i grow in this month, what crops are suitable for this season):
-
-        * `get_crop_calendar(crop_name: str)` → Returns the crop calendar (planting, sowing, growth, arrival months) for the given crop in India.  
-        * `get_crops_by_month(month: int)` → Returns all crops categorized by stage (planting, sowing, growth, arrival) for a given month in India.  
-
-    - Process:
-        * If the query is about cultivation practices (e.g., soil, irrigation, pest control):
-            - Use `search_filename → get_keys → get_context`.  
-        * If the query is about crop timelines or stages:
-            - Use `get_crop_calendar` when the query mentions a specific crop.  
-            - Use `get_crops_by_month` when the query mentions a specific month.  
-        * Always present the information in simple, farmer-friendly language.  
-        * If the crop name, month, or section is unclear, politely ask the user to clarify.  
-
-    3. Policy Agent  
-        * Specializes in providing accurate, up-to-date information about government agricultural policies and schemes.  
-        * Uses the Tavily Search tool to fetch official sources and present actionable insights.  
-        * Process:
-            * Identify if the user’s query relates to government schemes, subsidies, or policy regulations.  
-            * Use the Policy Agent to fetch relevant information and summarize it in simple, farmer-friendly language.  
-        * Always ensure information is credible, recent, and easy to understand for farmers.
-    
-    4. Crop Price Agent  
-        * Specializes in providing mandi prices for crops across India.  
-        * If the location is not provided by the user then use User location (user city or user state) Info to fetch mandi prices.
-        * Uses the Crop Price Tool to fetch prices from government data sources.  
-        * Process:  
-            * Always extract the state from the user’s query (mandatory).  
-            * If crop, district, market, variety, or grade are mentioned, include them in the tool call.  
-            * Summarize results in farmer-friendly language, showing lowest, highest, and average prices if available.  
-            * If required information (like state) is missing, politely ask the user for clarification.  
-        * Always present results in the same language as the user’s message.  
-        * Ensure the explanation is simple and useful for farmers.  
-
-
-    Your role as Supervisor:  
-    - Listen to the user’s query and decide which expert is best suited to respond.  
-    - Do not mention that you have retrieved the information from tools.  
-    - Use the information retrieved from tools to craft your response.  
-    - If a query requires input from multiple experts (e.g., weather + crop calendar), coordinate their responses in sequence.  
-    - Always respond in the same language the user used in their query.  
-    - Ensure answers are clear, concise, and tailored for farmers or agricultural professionals.  
+    Your role as Supervisor:
+    - Listen to the user's query and decide which expert is best suited to respond.
+    - Do not mention that you have retrieved the information from tools.
+    - Use the information retrieved from tools to craft your response.
+    - If a query requires input from multiple experts (e.g., weather + crop calendar), coordinate their responses in sequence.
+    - Always respond in the same language the user used in their query.
+    - Ensure answers are clear, concise, and tailored for farmers or agricultural professionals.
     """,
-        output_mode="last_message",
-    )
-
+    output_mode="last_message",
+)
 
 # Compile workflow with checkpointer
 app_workflow = workflow.compile(
     checkpointer=checkpointer,
 )
 
-class QueryRequest(BaseModel):
+# ✅ FIXED: Match frontend payload structure
+class Query(BaseModel):
     user_prompt: str
-
+    coords: Optional[Coords] = None
 
 # ---------- Endpoints ----------
 @app.post("/query")
-async def query_ai(request: QueryRequest):
-    # Unique thread per request for isolation
-    # config = {"configurable": {"thread_id": uuid.uuid4().hex}}
+async def query_ai(request: Query):
+    try:
+        # 🔍 DEBUG: Print received data
+        print(f"📡 Received query: {request.user_prompt}")
+        
+        if request.coords:
+            print(f"📍 Location received: Lat={request.coords.lat}, Lon={request.coords.lon}")
+        else:
+            print("❌ No coordinates received")
+        
+        # Pass to workflow
+        user_msg = {"role": "user", "content": request.user_prompt}
+        if request.coords:
+            user_msg["metadata"] = {
+                "lat": request.coords.lat,
+                "lon": request.coords.lon,
+            }
+            print(f"📋 Message with metadata: {user_msg}")
 
-
-    result = app_workflow.invoke(
-        {"messages": [{"role": "user", "content": request.user_prompt}]},
-        config=config
-    )
-    
-    # Get last AI message content
-    response_message = result["messages"][-1].content
-    return {"response": response_message}
+        result = app_workflow.invoke(
+            {"messages": [user_msg]},
+            config={"configurable": {"thread_id": uuid.uuid4().hex}},
+        )
+        
+        print(f"✅ AI response generated successfully")
+        return {"response": result["messages"][-1].content}
+        
+    except Exception as e:
+        print(f"❌ Error in query_ai: {e}")
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(500, "Internal error")
 
 @app.get("/")
 async def root():
     return {"message": "Krishi Sewa AI API is running!"}
 
-# front end sends request using:
-
-# fetch("http://localhost:8000/query", {
-#   method: "POST",
-#   headers: { "Content-Type": "application/json" },
-#   body: JSON.stringify({ user_prompt: "What is the crop calendar for wheat?" })
-# })
-# .then(res => res.json())
-# .then(data => console.log(data.response));
-
-
-## test from terminal
-
+# Test commands:
 # curl -X POST "http://localhost:8000/query" \
 # -H "Content-Type: application/json" \
 # -d '{"user_prompt": "What is the crop calendar for wheat?"}'

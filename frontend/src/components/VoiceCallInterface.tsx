@@ -166,7 +166,7 @@ const VoiceCallInterface = ({
       console.log("📞 Calling vapi.start...");
       
       // OPTION 1: Use ONLY assistant ID (Recommended - prevents call ending)
-      await vapi.start("cbbc36fa-4d17-4ada-97db-a2401e04a84b");
+      await vapi.start(process.env.NEXT_PUBLIC_VAPI_ASSISTANT_ID);
       
       
       console.log("✅ VAPI call initiated successfully");

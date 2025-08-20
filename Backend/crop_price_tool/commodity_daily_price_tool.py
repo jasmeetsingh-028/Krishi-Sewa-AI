@@ -38,7 +38,7 @@ def get_crop_price_tool(
     api_key = os.getenv("COMMODITY_API_KEY")
     url = "https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070"
     params = {
-        "api-key": "579b464db66ec23bdd0000017407ced8140e46127d4945826103670f",
+        "api-key": api_key,
         "format": "json",
         "limit": limit,
         "filters[state.keyword]": state,
